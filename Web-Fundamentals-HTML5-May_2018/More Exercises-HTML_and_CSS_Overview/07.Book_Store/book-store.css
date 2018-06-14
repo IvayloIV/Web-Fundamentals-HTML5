@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body {
+    font-family: 'Lato', sans-serif;
+}
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #c6c7cc;
+    padding: 10px;
+}

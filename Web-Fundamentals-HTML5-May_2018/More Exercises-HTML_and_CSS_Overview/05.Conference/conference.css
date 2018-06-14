@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container nav {
+    background-color: #293F50;
+    text-align: left;
+}
+
+.container nav ul {
+    padding: 0;
+    margin: 0 0 0 10px;
+}
+
+.container nav li {
+    font-size: 20px;
+    padding: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+.container nav a {
+    color: #648874;
+    text-decoration: none;
+}
+
+header {
+    background-color: #293F50;
+    height: 430px;
+    text-align: center;
+}
+
+header p {
+    color: #648874;
+    font-size: 13px;
+    text-align: right;
+    margin: 0 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header h1.normal {
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+    padding: 40px;
+    letter-spacing: 6px;
+}
+
+header h1.green {
+    text-align: center;
+    font-size: 30px;
+    color: #648874;
+    letter-spacing: 3px;
+    margin: 0;
+}
+
+header h2 {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    letter-spacing: 3px;
+    margin: 10px;
+}
+
+header button {
+    padding: 15px 40px;
+    margin-top: 34px;
+    background: none;
+    border: 1px solid white;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+header button:hover {
+    background-color: white;
+    cursor: pointer;
+    color: #648874;
+}
+
+main {
+    text-align: center;
+    margin: 40px;
+}
+
+article {
+    display: inline-block;
+    max-width: 300px;
+}
+
+main h1 {
+    color: #A9B2B9;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: left;
+    margin: 30px 20px;
+}
+
+main img {
+    width: 270px;
+    height: 200px;
+    border-radius: 7px;
+}
+
+main h2 {
+    color: #648880;
+    text-align: left;
+    font-size: 25px;
+    margin: 15px;
+}
+
+main p {
+    color: #5A7D94;
+    text-align: left;
+    font-size: 16px;
+    margin: 15px;
+}
+
+section {
+    display: inline-block;
+}
+
+footer {
+    background-color: #293F50;
+    height: 60px;
+    padding: 20px 20px 20px 0;
+}
+
+footer nav {
+    text-align: right;
+}
+
+footer ul {
+    margin: 0;
+    display: inline-block;
+}
+
+footer nav li {
+    font-size: 14px;
+    margin: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+footer span {
+    font-size: 18px;
+    text-align: left;
+    color: white;
+    letter-spacing: 2px;
+    margin: 20px 0 0 20px;
+}

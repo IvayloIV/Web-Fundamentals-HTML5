@@ -1,0 +1,29 @@
+#wrapper {
+    margin: auto;
+    width: 800px;
+    background-color: #a6e1ec;
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 20px;
+}
+
+ul {
+    max-width: 700px;
+    list-style: none;
+}
+img {
+    width: 300px;
+    height: 180px;
+    vertical-align: middle;
+}
+
+li {
+    font-size: 14px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.text {
+    color: #2EA620;
+}

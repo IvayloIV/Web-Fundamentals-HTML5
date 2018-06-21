@@ -8,3 +8,5 @@
 4.  [**More Exercises-HTML and CSS Overview**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-May_2018/More%20Exercises-HTML_and_CSS_Overview)
 5.  [**Lab-Introduction To CSS**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-May_2018/Lab-Introduction_To_CSS)
 6.  [**Lab-CSS In Depth**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-May_2018/Lab-CSS_In_Depth)
+7.  [**Exercise-CSS Selectors Rules In Depth**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-May_2018/Exercise-CSS_Selectors_Rules_In_Depth)
+8.  [**More-Exercise-CSS Selectors Rules In Depth**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-May_2018/More-Exercise-CSS_Selectors_Rules_In_Depth)

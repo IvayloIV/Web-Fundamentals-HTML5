@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-color: #24437C;
+}
+
+nav {
+    margin: 15px;
+}
+
+nav:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+nav img {
+    margin: 10px;
+    width: 14%;
+    float: left;
+}
+
+.nav-primary {
+    list-style: none;
+    float: right;
+    margin: 0;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 7px 15px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9em;
+}
+
+.nav-item:last-child {
+    background-color: #3DC1EF;
+    border-radius: 10px;
+}
+
+.nav-item:first-letter {
+    text-transform: uppercase;
+}
+
+.header-title {
+    text-align: center;
+    color: white;
+    margin: 90px 0 20px 0;
+    font-size: 3em;
+    font-weight: 100;
+}
+
+.header-title:first-letter {
+    text-transform: uppercase;
+}
+
+.header-subtitle {
+    color: #6092AB;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 30px 30px 40px 30px;
+    letter-spacing: 2px;
+}
+
+.header-subtitle:first-letter {
+    text-transform: uppercase;
+}
+
+#button-container{
+    text-align: center;
+    font-size: 1em;
+    color: white;
+}
+
+#button-container a {
+    background: #3DC1EF;
+    padding: 10px 20px;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+#button-container:first-letter {
+    text-transform: uppercase;
+}
+
+.header-services {
+    text-align: center;
+    margin: 50px 50px 0 50px;
+    padding: 0;
+    color: white;
+    font-weight: 100;
+}
+
+.header-services li{
+    text-align: left;
+    list-style: none;
+    display: inline-block;
+    width: 20%;
+    padding: 0 10px 10px 10px;
+}
+
+.header-services li:hover {
+    background-color: #3DC1EF;
+    cursor: pointer;
+}
+
+.header-services li h2{
+    padding: 20px;
+}
+
+.header-services .service-intro{
+    font-size: 0.8em;
+}
+
+.service-intro a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 0;
+}

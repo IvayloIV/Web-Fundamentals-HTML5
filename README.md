@@ -10,3 +10,4 @@
 6.  [**Lab-CSS In Depth**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-May_2018/Lab-CSS_In_Depth)
 7.  [**Exercise-CSS Selectors Rules In Depth**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-May_2018/Exercise-CSS_Selectors_Rules_In_Depth)
 8.  [**More-Exercise-CSS Selectors Rules In Depth**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-May_2018/More-Exercise-CSS_Selectors_Rules_In_Depth)
+9.  [**Lab-CSS Formatting**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-May_2018/Lab-CSS_Formatting)

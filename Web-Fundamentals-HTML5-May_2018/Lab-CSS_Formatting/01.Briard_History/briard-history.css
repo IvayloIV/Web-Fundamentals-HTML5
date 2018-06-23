@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Lobster');
+
+main {
+    font-family: 'Lato', sans-serif;
+    width: 70%;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #0088DD;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 3em;
+    text-shadow: 2px 5px 6px rgba(150, 150, 150, 1);
+    margin-bottom: 1%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    text-transform: capitalize;
+    font-weight: 100;
+    margin-top: 0;
+    color: #00A2EA;
+    letter-spacing: 4px;
+    margin-bottom: 2%;
+}
+
+P:first-of-type {
+    text-align: center;
+    margin-top: 3px;
+}
+
+p a {
+    text-decoration: none;
+    color: #00A2EA;
+    font-size: 1.6em;
+}
+
+img {
+    width: 20%;
+    float: left;
+    margin: 0 3% 2% 0;
+}
+
+p:nth-of-type(2) {
+    color: #665544;
+    text-align: justify;
+    font-size: 1.1em;
+}
+
+p:nth-of-type(2):first-letter {
+    font-size: 1.7em;
+    text-transform: uppercase;
+    font-family: 'Lobster', sans-serif;
+    line-height: 100%;
+}
+
+div {
+    color: #665544;
+    font-size: 1.1em;
+    font-style: italic;
+    text-align: right;
+    margin-top: 4%;
+}

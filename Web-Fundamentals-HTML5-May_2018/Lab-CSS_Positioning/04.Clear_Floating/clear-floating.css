@@ -1,0 +1,41 @@
+body {
+    box-sizing: border-box;
+}
+
+header, footer {
+    margin: 0;
+    background-color: #8B603D;
+    padding: 1% 2%;
+    color: #FFFFFF;
+    border: 2px solid black;
+}
+
+main ul {
+    list-style: none;
+    padding: 0;
+    float: left;
+    margin:1%;
+    width: 12%;
+}
+
+main ul li {
+    padding: 5%;
+    color: white;
+    background-color: #33B5E5;
+    margin-bottom: 7px;
+}
+
+main:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+h2 {
+    margin: 0;
+    padding-top: 2%;
+}
+
+footer {
+    font-size: 1.3em;
+}

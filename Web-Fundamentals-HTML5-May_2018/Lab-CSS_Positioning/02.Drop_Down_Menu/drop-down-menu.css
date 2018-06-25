@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    background-color: #1D211E;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    background-color: rgb(230, 124, 31);
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    background-color: #E67C1F;
+    padding: 0;
+}
+
+li {
+    padding: 0.8%;
+    font-size: 1.2em;
+}
+
+nav > ul > li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.absoluteClass1, .absoluteClass2 {
+    position: absolute;
+    display: none;
+}
+
+.absoluteClass1 li, .absoluteClass2 li {
+    padding: 12px 20px;
+    font-size: 1em;
+}
+
+.absoluteClass1 {
+    left: 40%;
+    top: 8%;
+}
+
+.absoluteClass2 {
+    left: 100%;
+    bottom: -65%;
+}
+
+li > a::after {
+    content: '+';
+}
+
+li > a:only-child::after {
+    content: '';
+}
+
+.absoluteClass1 li:hover, .absoluteClass2 li:hover {
+    background-color: black;
+    color:white;
+}
+
+nav > ul li:nth-child(3):hover .absoluteClass1{
+    display: block;
+}
+
+.absoluteClass1 li:last-child:hover .absoluteClass2{
+    display: block;
+}

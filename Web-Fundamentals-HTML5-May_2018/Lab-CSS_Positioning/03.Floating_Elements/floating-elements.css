@@ -1,0 +1,29 @@
+main {
+    width: 60%;
+}
+
+div {
+    background-color: #6495ED;
+    padding: 2.5% 2.5%;
+    margin: 1%;
+    border-radius: 5px;
+    text-align: center;
+    width: 20%;
+    text-shadow: 0 0 5px white;
+}
+
+p {
+    text-align: justify;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.center {
+    margin: 0 auto;
+}

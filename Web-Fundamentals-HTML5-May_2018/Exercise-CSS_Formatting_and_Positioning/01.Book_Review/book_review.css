@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,800');
+
+body {
+    background: linear-gradient(to bottom, #567788 0%,#121f25 100%) no-repeat center center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header > ul {
+    list-style: none;
+    text-align: right;
+    background-color: #EFF4F7;
+    position: relative;
+    margin: 30px;
+    padding-right: 10px;
+}
+
+header > ul > li {
+    display: inline-block;
+    padding: 1.5% 1.5% 1.5% 1%;
+}
+
+header > ul > li:hover {
+    padding-bottom: 1.18%;
+    border-bottom: 3px solid #8FDDEA;
+}
+
+header > ul li a {
+    text-decoration: none;
+    color: #B3B3B1;
+    font-size: 0.9em;
+}
+
+header > section{
+    width: 6%;
+    position: absolute;
+    background-color: #EA3D51;
+    padding-top: 4%;
+    top: 20px;
+    left: 40%;
+}
+
+header h1 {
+    margin: 0;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 900;
+    position: relative;
+    top: 16px;
+    font-size: 1.9em;
+}
+
+main {
+    background-color: #CCD0D9;
+    width: 78%;
+    margin: 6% auto;
+    text-align: center;
+}
+
+main > h1 {
+    text-transform: uppercase;
+    font-size: 2.7em;
+    margin: 0;
+    position: relative;
+    z-index: 4;
+}
+
+main > h2 {
+    margin: 0;
+    text-transform: uppercase;
+    color: #6DFFB8;
+    font-size: 5em;
+    position: relative;
+    left: 40px;
+    bottom: 58px;
+    z-index: 2;
+}
+
+main > article:first-of-type {
+    position: relative;
+    z-index: 4;
+    width: 30%;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, #eb3c53 0%, #e6135c 100%) no-repeat center center;;
+    padding: 4%;
+}
+
+.stars {
+    color: white;
+    font-size: 1.3em;
+    letter-spacing: 6px;
+    margin-top: 0;
+}
+
+main article:first-of-type p:last-of-type {
+    color:white;
+}
+
+main article:first-of-type p:last-of-type::before, main article:first-of-type p:last-of-type::after {
+    content: ' " ';
+    color: #B02140;
+    font-weight: 800;
+    font-size: 1.6em;
+}
+
+main article:first-of-type button {
+    outline: none;
+    border: 3px solid #8FDDF6;
+    background: none;
+    padding: 10px 21px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    color: #8FDDF6;
+    cursor: pointer;
+}
+
+main article:first-of-type button:hover {
+    background-color: #8FDDF6;
+    color: #389AB3;
+}
+
+img {
+    border-radius: 50%;
+    width: 25%;
+}
+
+main article:last-of-type {
+    width: 90%;
+    background-color: white;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+    bottom: 180px;
+    z-index: 1;
+}
+
+main article:last-of-type h2 {
+    color: #47EE9A;
+    font-size: 2.2em;
+    margin: 0;
+    padding: 25% 3% 2%;
+}
+
+main article:last-of-type p {
+    padding-left: 3%;
+    font-weight: 100;
+    font-size: 0.9em;
+}
+
+main article:last-of-type button {
+    outline: none;
+    margin: 0 3% 2.3%;
+    background: none;
+    border: 3px solid #65818D;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    padding: 1.5%;
+    cursor: pointer;
+}
+
+main article:last-of-type button:hover {
+    background-color: #65818D;
+    color: #47EE9A;
+}

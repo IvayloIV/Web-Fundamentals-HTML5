@@ -13,3 +13,4 @@
 9.  [**Lab-CSS Formatting**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-May_2018/Lab-CSS_Formatting)
 10.  [**Lab-CSS Positioning**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-May_2018/Lab-CSS_Positioning)
 11.  [**Exercise-CSS Formatting and Positioning**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-May_2018/Exercise-CSS_Formatting_and_Positioning)
+12.  [**More-Exercises-CSS Formatting and Positioning**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-May_2018/More-Exercises-CSS%20Formatting_and_Positioning)

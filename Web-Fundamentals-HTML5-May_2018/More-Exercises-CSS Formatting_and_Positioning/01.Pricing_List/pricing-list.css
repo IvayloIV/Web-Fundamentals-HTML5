@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Vollkorn';
+    src: url("./fonts/Vollkorn-Regular.ttf");
+}
+
+body {
+    font-family: 'Vollkorn', serif;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+main > h1 {
+    color: #798493;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    margin-bottom: 1%;
+}
+
+article {
+    width: 29%;
+    display: inline-block;
+    border: 2px solid #F9F9FB;
+    margin: 1%;
+    vertical-align: top;
+    height: 480px;
+    cursor: pointer;
+}
+
+article:hover button, article:hover h2 {
+    background-color: #65D3E2;
+}
+
+article h2 {
+    background-color: #EBEFF2;
+    margin: 0;
+    padding: 8%;
+    text-transform: capitalize;
+    font-size: 1.8em;
+    color: #6B7889;
+}
+
+article h3 {
+    color: #86919B;
+    font-size: 3em;
+    font-weight: 500;
+    margin-top: 13px;
+    margin-bottom: 7%;
+}
+
+article ul {
+    list-style: none;
+    text-align: left;
+    padding: 0 7% 0 15%;
+}
+
+article ul li {
+    color: #758899;
+    font-size: 0.96em;
+    border-bottom: 1px solid #F2F2F4;
+    padding-top: 6%;
+}
+
+button {
+    background-color: #DDDDDD;
+    color: #FBFBFA;
+    border: none;
+    width: 80%;
+    padding: 6%;
+    border-radius: 9px;
+    text-transform: capitalize;
+    font-size: 0.9em;
+}
+
+article:first-of-type button {
+    position: relative;
+    top: 148px;
+}
+
+article:nth-of-type(2) button {
+    position: relative;
+    top: 113px;
+}
+
+article:last-of-type button {
+    position: relative;
+    top: 41px;
+}

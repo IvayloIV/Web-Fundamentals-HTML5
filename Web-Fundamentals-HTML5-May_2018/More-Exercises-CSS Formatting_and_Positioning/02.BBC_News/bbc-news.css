@@ -1,0 +1,30 @@
+body {
+    width: 70%;
+    margin: 0 auto;
+}
+
+section {
+    border: 1px solid #CDD1D1;
+    text-align: center;
+    margin-top: 4%;
+}
+
+article {
+    display: inline-block;
+    width: 23%;
+    padding: 0 0.6%;
+    vertical-align: top;
+}
+
+img {
+    width: 100%;
+}
+
+img:hover {
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+p {
+    text-align: left;
+}

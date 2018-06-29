@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700,800,900');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./images/Layer-759_02.jpg") no-repeat center;
+    background-size: cover;
+    text-align: center;
+}
+
+header nav {
+    background: #BA925E;
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+}
+
+header > nav > ul {
+    padding: 0;
+    margin: 0;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 1.3% 3.5%;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+header ul li:first-of-type a{
+    color: #F2DDC0;
+}
+
+header h1 {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 3em;
+    font-weight: 600;
+    margin-top: 8%;
+    margin-bottom: 2%;
+}
+
+header p {
+    color: white;
+    font-size: 1.2em;
+    width: 30%;
+    margin: 0 auto;
+}
+
+header button {
+    outline: none;
+    background-color: #0A0821;
+    border: none;
+    color: white;
+    padding: 1.1% 2%;
+    font-size: 0.7em;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 9px;
+    margin: 2% 0 18%;
+    cursor: pointer;
+}
+
+header button i {
+    color: #C09B81;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+header button:hover {
+    background-color: #C79D63;
+    color:black;
+}
+
+header button:hover i {
+    color:black;
+}
+
+#industries h2 {
+    text-align: center;
+    font-size: 2.4em;
+    font-weight: 600;
+    margin-top: 3.4%;
+    margin-bottom: 0.9%;
+}
+
+#industries div {
+    text-align: center;
+}
+
+#industries article {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+#industries i {
+    float: left;
+    width: 10%;
+    font-size: 2em;
+    background-color: black;
+    color: white;
+    padding: 2%;
+    border-radius: 50%;
+    margin-top: 6%;
+    margin-left: -1%;
+
+}
+
+#industries h3,#industries p {
+    width: 83%;
+    float: right;
+    text-align: left;
+}
+
+#industries h3 {
+    margin-bottom: 1%;
+    margin-top: 9%;
+    font-size: 1em;
+}
+
+#industries p {
+    font-size: 0.9em;
+}
+
+#help {
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("./images/steel-bg.jpg") no-repeat center;
+    background-size: cover;
+    text-align: center;
+}
+
+#help p {
+    padding: 2.5% 0;
+    width: 45%;
+    margin: 0 auto;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#help p:first-line {
+    color: #BCA077;
+}
+
+#trader {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/background-choose-us.jpg") no-repeat center;
+    background-size: cover;
+    text-align: center;
+}
+
+#trader h2{
+    margin: 0;
+    padding: 4% 0 2% 0;
+    color: white;
+    font-size: 2em;
+}
+
+#trader article {
+    vertical-align: top;
+    display: inline-block;
+    width: 23%;
+    border: 2px solid #B4A088;
+    color: white;
+    padding: 1.5% 1%;
+    margin: 0 1% 3%;
+}
+
+#trader article h4 {
+    font-size: 1.5em;
+    margin-bottom: 5%;
+    margin-top: 6%;
+}
+
+#trader article p {
+    text-align: left;
+    padding-left: 5%;
+    font-size: 0.9em;
+}
+
+#trader article:hover {
+    background-color: white;
+    color: black;
+}
+
+#comment {
+    background: url("./images/consulting-woman.jpg") no-repeat center;
+    background-size: cover;
+    height: 460px;
+}
+
+#comment div {
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 3%;
+    position: relative;
+    left: 62%;
+    top: 10%;
+}
+
+#comment div > p {
+    font-size: 0.8em;
+}
+
+#comment div > p::before, #comment div > p::after {
+    content: '"';
+    color: #B4A087;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+#comment article {
+    background-color: #080820;
+    color: white;
+    padding: 1% 4% 32% 4%;
+}
+
+#comment article > h5 {
+    color: #787684;
+    font-size: 0.7em;
+    text-align: right;
+    width: 100%;
+    margin-top: 4%;
+}
+
+#comment article > h3 {
+    font-size: 1.4em;
+}
+
+#partner {
+    width: 70%;
+    margin: 0 auto;
+    padding: 1.3% 0;
+}
+
+#partner img {
+    width: 15%;
+    height: 70px;
+}
+
+footer {
+    background-color: #080820;
+    color: white;
+}
+
+footer article {
+    display: inline-block;
+    width: 23%;
+    vertical-align: top;
+    padding: 1% 5%;
+}
+
+footer article p {
+    font-weight: 500;
+    font-size: 0.8em;
+    margin-left: 16%;
+}
+
+footer article > div {
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+footer article > div > i {
+    background-color: #83838F;
+    padding: 4%;
+    border-radius: 50%;
+    width: 8%;
+    color: #080820;
+    font-size: 1em;
+    margin: 2%;
+}
+
+footer article#links h3 {
+    margin-bottom: 2%;
+}
+
+footer article#links ul {
+    vertical-align: top;
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    width: 40%;
+}
+
+footer article#links ul li {
+    padding-bottom: 6%;
+}
+
+footer article#links ul a {
+    font-size: 0.8em;
+    color: #B39C94;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+footer article#links ul:first-of-type {
+    margin-left: 13%;
+}
+
+footer article:last-child div{
+    margin: 0 0 0 7%;
+}
+
+footer article:last-child {
+    padding-bottom: 0;
+    padding-right: 0;
+}
+
+footer article > div > img {
+    width: 30%;
+}

@@ -1,0 +1,25 @@
+main {
+    width: 30%;
+}
+
+legend {
+    font-size: 1.6em;
+}
+
+label {
+    display: block;
+}
+
+label span {
+    display: block;
+    font-size: 1.2em;
+    margin-top: 2%;
+}
+
+label input, label textarea, label select {
+    width: 70%;
+}
+
+label textarea {
+    height: 100px;
+}

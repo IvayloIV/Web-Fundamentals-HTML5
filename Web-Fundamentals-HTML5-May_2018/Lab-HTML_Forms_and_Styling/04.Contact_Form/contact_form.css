@@ -1,0 +1,62 @@
+form {
+    width: 35%;
+    margin: 40px auto;
+    background-color: #F7F7F7;
+    padding: 1.5% 3%;
+    border: 1px solid #EBEBEB;
+}
+
+form h1 {
+    color: #86827E;
+    margin: 0;
+    padding-left: 4%;
+}
+
+form h3 {
+    padding-left: 4%;
+    color: #86827E;
+    font-size: 1.1em;
+    margin: 0 0 3%;
+}
+
+hr {
+    border: 1px solid #E8E8E8;
+}
+
+form label {
+    display: block;
+    margin: 3% 0;
+    text-align: right;
+    width: 80%;
+}
+
+form label span {
+    color: #9A9C9E;
+    vertical-align: top;
+}
+
+form label input, form label textarea, form label select {
+    padding: 3px;
+    border: 1px solid #DEDEDE;
+    width: 74%;
+    box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.07);
+    color: #777e89;
+}
+
+form label select {
+    width: 76%;
+}
+
+form > input:last-child {
+    border: none;
+    background-color: #E27575;
+    padding: 2% 10%;
+    width: 40%;
+    border-radius: 3px;
+    color: white;
+    font-size: 0.9em;
+    box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.07);
+    margin-left: 20%;
+    outline: none;
+    margin-top: 1%;
+}

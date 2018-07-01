@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://use.fontawesome.com/releases/v5.1.0/css/all.css');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #927057;
+    text-align: center;
+}
+
+img {
+    display: block;
+}
+
+#photo {
+    width: 9%;
+    border: 4px solid #DFCC9A;
+    margin: 50px auto 20px;
+}
+
+main:before {
+    content: '';
+    background: url("./images/triangle.png") no-repeat center;
+    display: block;
+    height: 35px;
+    position: relative;
+    top: 2px;
+}
+
+main form {
+    width: 34%;
+    background-color: #D5C395;
+    margin: 0 auto;
+    padding: 3% 4%;
+    text-align: left;
+}
+
+main form h1 {
+    margin-left: 2%;
+    color: white;
+    font-size: 1.8em;
+    margin-bottom: 0;
+}
+
+main form label {
+    display: block;
+    margin: 0 2% 2%;
+}
+
+main form input {
+    width: 100%;
+    background-color: #EFE1C4;
+    border: none;
+    border-radius: 6px;
+    padding: 2% 2% 2% 12%;
+    box-sizing: border-box;
+    color: #B9B8B3;
+    font-size: 1.1em;
+}
+
+main form span {
+    position: relative;
+    top: 31px;
+    left: 10px;
+}
+
+main i {
+    color: #9C7B61;
+    font-size: 1.3em;
+}
+
+main form input[type='submit'] {
+    padding: 2%;
+    background-color: #927057;
+    color: #CEB98F;
+    font-size: 1em;
+    margin-top: 5%;
+    font-weight: 900;
+    outline: none;
+    width: 96%;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+footer {
+    color: #D5C395;
+    padding: 1%;
+    font-size: 0.9em;
+}

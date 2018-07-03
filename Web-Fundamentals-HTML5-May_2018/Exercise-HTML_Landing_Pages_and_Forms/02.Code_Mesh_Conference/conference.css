@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+@import url('https://use.fontawesome.com/releases/v5.1.0/css/all.css');
+
+body {
+    font-family: 'Roboto',sans-serif;
+    margin:0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(rgba(79, 82, 91, 0.9), rgba(79, 82, 91, 0.9)), url("./img/header-bg.png") no-repeat center;
+    background-size: cover;
+}
+
+header nav {
+    padding: 3% 0 3% 2%;
+    color: white;
+}
+
+header nav span {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+}
+
+header nav ul {
+    padding: 0;
+    list-style: none;
+    float: right;
+    margin: 0;
+    width: 38%;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding-left: 6%;
+    cursor: pointer;
+}
+
+header nav ul li:hover a{
+    color: #FA6A2E;
+}
+
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#title {
+    width: 60%;
+    margin: 7% auto 0;
+    color: white;
+}
+
+#title h1 {
+    padding-left: 7%;
+    width: 70%;
+    display: inline-block;
+    font-weight: 300;
+    font-size: 1.8em;
+}
+
+#title h1 > span {
+    font-weight: 500;
+}
+
+#title i {
+    font-size: 3.5em;
+    padding-left: 7%;
+    cursor: pointer;
+}
+
+#title i:hover {
+    color: #FA6A2E;
+}
+
+header section {
+    padding-left: 2%;
+}
+
+header section article {
+    width: 20%;
+    padding: 2% 2% 0 2%;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+header section article:hover p{
+    border-bottom: 8px solid #FA6A2E;
+}
+
+header section article:hover:first-child p{
+    padding-bottom: 15%;
+}
+
+header section article:first-child:hover {
+    margin-bottom: 0.4%;
+}
+
+header section article i {
+    font-size: 2em;
+    margin-bottom: 13%;
+}
+
+header section article p {
+    font-size: 0.9em;
+    padding-bottom: 20%;
+    margin-bottom: 0.6%;
+}
+
+#opinion{
+    padding: 2% 5% 1% 5%;
+    text-align: center;
+}
+
+#opinion article {
+    padding: 2%;
+    width: 28%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#opinion article:first-child {
+    text-align: right;
+    margin-top: 3%;
+}
+
+#opinion article:first-child p {
+    text-transform: capitalize;
+    margin-top: 14%;
+    font-size: 1em;
+}
+
+#opinion article:nth-child(2) {
+    text-align: left;
+    width: 31%;
+    font-size: 0.9em;
+}
+
+#opinion article:nth-child(2) p {
+    margin-bottom: 0;
+    padding-bottom: 7%;
+    border-bottom: 1px solid #D7D7D7;
+}
+
+#opinion article:nth-child(2) h4 {
+    font-size: 1.2em;
+}
+
+#opinion article:last-child img {
+    width: 88%;
+}
+
+#opinion article:last-child #orangeScreen {
+    position: absolute;
+    background-color: #FB8758;
+    width: 375px;
+    height: 451px;
+    opacity: 0.85;
+    top: 600px;
+    right: 155px;
+}
+
+#schedule {
+    padding: 2% 5% 0 5%;
+    background: #3C3E4A;
+    text-align: center;
+}
+
+#schedule h3 {
+    text-align: left;
+    width: 32%;
+    color: white;
+    margin-bottom: 7%;
+    margin-left: 5%;
+    font-size: 1.2em;
+}
+
+#schedule div {
+    width: 40%;
+    display: inline-block;
+    text-align: left;
+    color: white;
+}
+
+#schedule div i {
+    float: left;
+    background: #FA6A2E;
+    padding: 3%;
+    border-radius: 50%;
+    font-size: 1.1em;
+    margin-right: 5%;
+}
+
+#schedule article:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#schedule article {
+    margin-bottom: 15%;
+}
+
+#schedule article p {
+    line-height: 41px;
+    color: #FDFDFF;
+    font-size: 0.9em;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+
+#schedule article span:first-child {
+    font-size: 1.1em;
+    padding-right: 4.5%;
+    font-weight: 800;
+}
+
+#schedule article:last-child {
+    margin-bottom: 17%;
+}
+
+#speakers {
+    width: 80%;
+    margin: 3% auto 6%;
+}
+
+#speakers h3 {
+    width: 42%;
+    font-size: 1.3em;
+    display: inline-block;
+}
+
+#speakers > span {
+    width: 55%;
+    font-size: 0.9em;
+}
+
+#speakers > div:first-of-type {
+    margin-top: 4%;
+}
+
+#speakers article {
+    width: 21%;
+    margin: 1% 1.5%;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 10px 10px 15px -5px rgba(0,0,0,0.25);
+    vertical-align: top;
+}
+
+#speakers article img {
+    width: 100%;
+}
+
+#speakers article h5 {
+    text-align: left;
+    padding-left: 10%;
+    text-transform: capitalize;
+    font-size: 0.9em;
+}
+
+#speakers article h5 i {
+    font-size: 1.2em;
+}
+
+#speakers article h5 i:hover {
+    color: #EC6F3F;
+    cursor: pointer;
+}
+
+#speakers article p {
+    text-align: left;
+    padding-left: 10%;
+    text-transform: uppercase;
+    font-size: 1em;
+    color: #E5C2BC;
+}
+
+#specialEvent {
+    text-align: center;
+    padding: 5% 10%;
+    background-color: #3C3E4A;
+}
+
+#specialEvent > div {
+    padding: 5% 23%;
+    border: 1px solid #D6D6E0;
+}
+
+#specialEvent h2 {
+    color: #FFFFFD;
+    text-transform: uppercase;
+    font-size: 2.4em;
+    margin-bottom: 8%;
+    letter-spacing: 2px;
+}
+
+#specialEvent div > p {
+    color: white;
+    margin-bottom: 10%;
+}
+
+#specialEvent div input[type="email"] {
+    background: none;
+    border: none;
+    border-bottom: 2px solid #FA6A2E;
+    outline: none;
+    font-size: 1em;
+    color: white;
+    margin-right: 7%;
+}
+
+#specialEvent div input[type="submit"] {
+    background-color: #FA6A2E;
+    border: none;
+    padding: 1.3% 5%;
+    border-radius: 15px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#specialEvent div input[type="submit"]:hover {
+    background-color: #333333;
+}
+
+footer {
+    background-color: #292A2F;
+    padding: 0.5% 1.5%;
+}
+
+footer p {
+    display: inline-block;
+    width: 49%;
+    color: #FFFFFB;
+    vertical-align: top;
+    text-transform: uppercase;
+    font-size: 0.90em;
+}
+
+footer p:first-child {
+    padding-top: 0.6%;
+    font-weight: 600;
+}
+
+footer p:last-child {
+    padding-left: 31%;
+    box-sizing: border-box;
+    text-align: left;
+    color: #88898D;
+    font-weight: 600;
+}

@@ -1,0 +1,83 @@
+@import url('https://use.fontawesome.com/releases/v5.1.0/css/all.css');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #384452;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    padding: 1.7% 2%;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #90B8CA;
+    font-size: 1.1em;
+}
+
+nav li i {
+    margin-right: 6px;
+}
+
+nav li:hover {
+    background-color: #3BBC96;
+}
+
+nav li:hover a {
+    color: white;
+}
+
+main {
+    background-color: #EEEEEE;
+    padding: 0 2% 1%;
+}
+
+main div label {
+    display: inline-block;
+    width: 20%;
+}
+
+main div input {
+    width: 65%;
+    padding: 4.5% 3%;
+    border: 1px solid #DADADA;
+}
+
+main div span {
+    display: block;
+    color: #2E4B7D;
+    font-weight: 800;
+    padding: 5.5% 1%;
+    font-size: 1.1em;
+}
+
+main div > button {
+    width: 17%;
+    padding: 1%;
+    vertical-align: top;
+    margin-top: 1.4%;
+    background-color: #384452;
+    text-transform: uppercase;
+    color: #BDC1AC;
+    font-weight: 600;
+    box-shadow: 0 0 5px 1px rgba(0,0,0,0.23);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+main div > button:hover {
+    background-color: #3BBC96;
+    color: white;
+}

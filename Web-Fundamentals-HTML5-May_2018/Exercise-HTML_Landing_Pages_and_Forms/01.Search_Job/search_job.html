@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search Job</title>
+    <link rel="stylesheet" href="search_job.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#"><i class="fas fa-search"></i> Search Business</a></li>
+                <li><a href="#"><i class="fas fa-tags"></i> Business Categories</a></li>
+                <li><a href="#"><i class="fas fa-map-marker"></i> Recent Locations</a></li>
+                <li><a href="#"><i class="fas fa-user"></i> Agents Located</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="#">
+            <div>
+                <label>
+                    <span>Business Name</span>
+                    <input type="text" placeholder="enter a name" name="businessName">
+                </label>
+                <label>
+                    <span>Country</span>
+                    <input type="text" placeholder="search by country" name="country">
+                </label>
+                <label>
+                    <span>City / State</span>
+                    <input type="text" placeholder="search by city or state" name="city">
+                </label>
+                <label>
+                    <span>Zip / Postal Code</span>
+                    <input type="text" placeholder="enter a postal code" name="postalCode">
+                </label>
+            </div>
+            <div>
+                <label>
+                    <span>Employers</span>
+                    <input type="number" placeholder="1000-5000" name="employers" min="1000" max="5000">
+                </label>
+                <label>
+                    <span>Startup Date</span>
+                    <input type="date" name="date">
+                </label>
+                <label>
+                    <span>Job Opportunity</span>
+                    <input type="text" placeholder="any" name="opportunity">
+                </label>
+                <button>let's find your job</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Room Reservation</title>
+    <link rel="stylesheet" href="room_reservation.css">
+</head>
+<body>
+    <header>
+        <h1>Room Reservation</h1>
+    </header>
+    <main>
+        <section id="info">
+            <div>
+                <h2>Basic Information</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at nibh varius odio sollicitudin
+                    blandit nec eu elit. Suspendisse ac risus nunc, quis elementum lorem. Pellentesque vehicula egestas eros
+                    nec commodo.
+                </p>
+            </div>
+            <div>
+                <label>
+                    <span>Search</span>
+                    <input type="text" name="search"><i class="fas fa-search"></i>
+                </label>
+            </div>
+        </section>
+        <section id="form">
+            <form action="#">
+                <div id="details">
+                    <h2>Personal Details</h2>
+                    <input type="text" placeholder="First Name" name="firstName">
+                    <input type="text" placeholder="Last Name" name="lastName">
+                    <input type="email" placeholder="Enter email" name="email">
+                </div>
+                <div id="reservation">
+                    <h2>Request a reservation</h2>
+                    <div>
+                        <div id="rooms">
+                            <label>
+                                <span>Select a Room</span>
+                                <select name="room">
+                                    <option value="1">Room 1</option>
+                                    <option value="2">Room 2</option>
+                                    <option value="3">Room 3</option>
+                                    <option value="4">Room 4</option>
+                                </select>
+                            </label>
+                        </div>
+                            <div id="numberOfRoom">
+                            <label>
+                                <span>Number of Rooms</span>
+                                <input type="number" name="numberOfRoom">
+                            </label>
+                        </div>
+                    </div>
+                    <div>
+                        <div id="checkIn">
+                            <label>
+                                <span>Check-In:</span>
+                                <input type="date" name="checkIn">
+                            </label>
+                        </div>
+                        <div id="checkOut">
+                            <label>
+                                <span>Check-Out:</span>
+                                <input type="date" name="checkOut">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <button>book now</button>
+    </main>
+</body>
+</html>

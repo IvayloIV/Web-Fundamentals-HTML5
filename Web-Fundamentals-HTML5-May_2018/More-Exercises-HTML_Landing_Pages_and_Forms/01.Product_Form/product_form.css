@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+body {
+    font-family: 'Lato', sans-serif;
+    width: 70%;
+    margin: 5% auto;
+}
+
+main {
+    border-radius: 14px;
+    box-shadow: 10px 0 40px 9px rgba(66,201,202,0.16);
+}
+
+main img {
+    width: 36%;
+    background: linear-gradient(to bottom, #6afdc9 0%,#42c9ca 100%);
+    padding: 11.2% 2%;
+    border-radius: 14px 0 0 14px;
+    vertical-align: middle;
+}
+
+main > div {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    padding: 3%;
+}
+
+main h1 {
+    font-family: 'Anton', sans-serif;
+    color: #333333;
+    font-size: 2.2em;
+}
+
+main div > p {
+    font-family: 'Anton', sans-serif;
+    color: #555555;
+    font-size: 1.4em;
+    margin-bottom: 5%;
+}
+
+main div label {
+    display: block;
+}
+
+main div label span {
+    display: block;
+    font-size: 1em;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+main form select, main form input {
+    padding: 1.6%;
+    width: 43%;
+    margin: 2% 4%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+main form input {
+    border-bottom: 3px solid #42C9CA;
+    color: #42C9CA;
+}
+
+main form select {
+    background: #42C9CA;
+    color: white;
+}
+
+main button {
+    background: none;
+    border: 3px solid #42C9CA;
+    border-radius: 22px;
+    padding: 1.4% 6%;
+    text-transform: uppercase;
+    color: #42C9CA;
+    margin-top: 6%;
+    cursor: pointer;
+    margin-bottom: 6%;
+}
+
+main button:hover {
+    background-color: #42C9CA;
+    color: white;
+}

@@ -19,3 +19,4 @@
 15.  [**Exercise-HTML Landing Pages and Forms**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-May_2018/Exercise-HTML_Landing_Pages_and_Forms)
 16.  [**More-Exercises-HTML Landing Pages and Forms**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-May_2018/More-Exercises-HTML_Landing_Pages_and_Forms)
 17.  [**Lab-Responsive Design**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-May_2018/Lab-Responsive_Design)
+18.  [**Lab-Transitions, Animations, Grids**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-May_2018/Lab-Transitions_Animations_Grids)

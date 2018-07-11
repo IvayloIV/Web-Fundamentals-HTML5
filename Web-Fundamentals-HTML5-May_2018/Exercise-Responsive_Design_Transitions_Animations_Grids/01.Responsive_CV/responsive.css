@@ -1,0 +1,66 @@
+@media screen and (max-width: 740px) {
+    header.clearfix {
+        text-align: center;
+    }
+    header.clearfix #info {
+        text-align: center;
+        font-size: 1.3em;
+        float: none;
+    }
+    header.clearfix #photo {
+        float: none;
+    }
+    h2 {
+        text-align: center;
+    }
+    p {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    header.clearfix #info {
+        font-size: 1.2em;
+    }
+    #wrapper {
+        padding: 20px;
+    }
+    p {
+        font-size: 1.9em;
+    }
+    #skills{
+        font-size: 1.2em;
+        display: block;
+    }
+    h2 {
+        font-size: 2.3em;
+    }
+    #skills-left, #skills-right {
+        float: none;
+        display: block;
+    }
+    ul li {
+        display: inline-block;
+        width: 41%;
+        padding-left: 20px;
+    }
+    img {
+        width: 61%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header.clearfix #info {
+        font-size: 1em;
+    }
+    p {
+        font-size: 1.5em;
+    }
+    #skills{
+        font-size: 1em;
+        display: block;
+    }
+    h2 {
+        font-size: 2em;
+    }
+}

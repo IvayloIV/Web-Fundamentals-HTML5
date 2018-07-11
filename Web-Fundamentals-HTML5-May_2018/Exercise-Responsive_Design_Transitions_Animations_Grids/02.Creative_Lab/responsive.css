@@ -1,0 +1,47 @@
+@media all and (max-width: 960px) {
+    body #wrapper {
+        width: 100%;
+    }
+    body #wrapper > header h1 a{
+        flex-direction: column;
+        align-items: center;
+    }
+    body #wrapper > header h1 a span {
+        padding: 0 0 3%;
+    }
+    body #wrapper > header nav ul{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1px;
+    }
+    body #wrapper > header nav ul li {
+        width: 90%;
+        margin: 0.5% 0;
+    }
+    body #wrapper > aside {
+        width: 100%;
+        flex-wrap: nowrap;
+    }
+    body #wrapper > section {
+        width: 100%;
+        font-size: 1.2em;
+    }
+    body #wrapper > aside div {
+        width: 49.8%;
+    }
+}
+
+@media all and (max-width: 480px) {
+    body #wrapper > section article {
+        font-size: 0.9em;
+    }
+    body #wrapper > aside {
+        flex-direction: column;
+    }
+    body #wrapper > aside div {
+        width: 100%;
+    }
+    body #wrapper > header nav ul li {
+        margin-bottom: 3%;
+    }
+}

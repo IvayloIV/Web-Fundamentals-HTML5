@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 0.5fr repeat(3, 0.8fr);
+    grid-template-rows: repeat(3, 2fr);
+    text-align: center;
+    background-color: #E2E2E2;
+    padding: 3% 2%;
+    width: 30%;
+    margin: 5% auto;
+    border: 2px solid #6277A1;
+    border-radius: 29px;
+    grid-column-gap: 8%;
+    grid-row-gap: 22px;
+}
+
+.box {
+    border: 2px solid white;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    border-radius: 6px;
+}
+
+.one {
+    grid-column: 1/5;
+    background-color: #7EAAB7;
+    padding: 6%;
+}
+
+.two {
+    grid-column: 1/3;
+    grid-row: 2/4;
+    background-color: #9F9584;
+    padding-top: 12%;
+}
+
+.three {
+    grid-column: 3/5;
+    background-color: #7184A9;
+    align-self: center;
+    padding: 15% 0;
+}
+
+.four {
+    background-color: #7EAAB7;
+}
+
+.five {
+    background-color: #9F9584;
+}
+
+.four, .five {
+    align-self: center;
+    padding: 32% 0;
+}

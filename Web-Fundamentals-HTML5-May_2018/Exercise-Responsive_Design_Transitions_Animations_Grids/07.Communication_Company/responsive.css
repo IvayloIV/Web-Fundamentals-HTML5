@@ -1,0 +1,117 @@
+@media all and (max-width: 1999px){
+    .main-nav ul li:last-of-type {
+        position: static;
+        display: block;
+        padding: 0;
+    }
+    .hero-head h1, .hero-head .goal, .content.woodsmoke .large-text-link, .bottom-wrap {
+        padding-left: 2%;
+    }
+    .main-nav ul li:last-of-type:before {
+        border: none;
+    }
+    .content-wrap {
+        flex-direction: column;
+        padding-left: 2%;
+    }
+    .content.bordered .wrapper {
+        width: 100%;
+    }
+    .content.woodsmoke > div, .module-text, .main-foot .wrapper, .content.sponsors .wrapper {
+        width: 98%;
+    }
+    .main-foot .wrapper {
+        flex-wrap: wrap;
+    }
+    .main-foot address, .main-foot nav {
+        flex: none;
+    }
+    .main-foot address, .main-foot nav {
+        width: 45%;
+        padding-left: 2%;
+    }
+}
+
+@media all and (max-width: 699px){
+    .modal-content .bordered-list {
+        max-width: none;
+    }
+    .hero-head {
+        min-width: 100px;
+    }
+    .main-nav-trigger {
+        display: inline-block;
+        left: 62%;
+        top: 18px;
+    }
+    .main-nav {
+        display: none;
+    }
+    .hero-head {
+        background: black;
+        min-height: 675px;
+    }
+    .hero-head .wrapper {
+        width: 100%;
+        margin: 0;
+    }
+    .wrapper h1{
+        width: 98%;
+        float: none;
+        margin-top: 0;
+        font-size: 3em;
+        text-align: center;
+        line-height: 52px;
+        padding-top: 30%;
+    }
+    .hero-head .goal {
+        display: block;
+        width: 98%;
+        float: none;
+        text-align: center;
+        max-width: none;
+        margin-top: 8%;
+    }
+    .content-wrap.two-col .col {
+        text-align: center;
+    }
+    .content-wrap.two-col h3 {
+        font-size: 2.3em;
+    }
+    .button.js-modal-open {
+        width: 100%;
+    }
+    .button-list li{
+        display: block;
+        width: 100%;
+    }
+    .button-list li a {
+        width: 98%;
+    }
+    .content.woodsmoke {
+        text-align: center;
+        padding-bottom: 90px;
+    }
+    .content.woodsmoke h3 {
+        font-size: 2.3em;
+    }
+    .content.woodsmoke .wrapper > a {
+        padding-left: 0;
+        font-size: 2em;
+    }
+    .sponsors h3 {
+        font-size: 2.4em;
+    }
+    .main-foot .wrapper {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .main-foot .bottom .bottom-wrap {
+        margin: 0 auto;
+    }
+    .main-foot .bottom .copyright {
+        float: none;
+    }
+}

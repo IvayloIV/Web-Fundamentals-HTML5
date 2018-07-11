@@ -1,0 +1,74 @@
+@media all and (max-width: 639px) {
+    .wrap {
+        width: 100%;
+    }
+    #header-top-area h1  {
+        overflow: hidden;
+        width: 128px;
+    }
+    #header-top-area h2 {
+        display: none;
+    }
+    #header-middle-area {
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
+        border-top: 1px solid #B5B9BA;
+        border-bottom: 1px solid #B5B9BA;
+    }
+    #header-top-area:after {
+        clear: both;
+        content: '';
+        display: block;
+    }
+    #header-bottom-area h3 {
+        display: none;
+    }
+    #header-bottom-area .navigation{
+        display: none;
+    }
+    #product-menu {
+        display: block;
+        float: none;
+    }
+    #product-menu ul .product-type a{
+        font-size: 1.3em;
+    }
+    #product-type:hover {
+        cursor: pointer;
+        background-color: #C4C8C9;
+        color: #4D4F53;
+    }
+    #product-menu:hover ul.submenu {
+        display: block;
+        cursor: pointer;
+    }
+    .box {
+        width: 100%;
+    }
+    footer {
+        height: 190px;
+        font-size: 1.1em;
+    }
+    strong {
+        vertical-align: bottom;
+        display: inline-block;
+    }
+    .box.share {
+        color: white;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .tag {
+        color: #fff;
+    }
+    .box.email-newsletter {
+        padding: 2%;
+    }
+    .box.email-newsletter span{
+        display: block;
+    }
+    .box.copyright {
+        text-align: center;
+        padding: 0;
+    }
+}

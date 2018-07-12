@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #0E1013;
+}
+
+.container {
+    width: 200px;
+    height: 100px;
+    padding-top: 200px;
+    margin: 0 auto;
+}
+
+.ball {
+    width: 20px;
+    height: 20px;
+    margin: 20px auto;
+    border-radius: 50px;
+}
+
+.container .ball:first-child {
+    background: #ff005d;
+    animation-name: red-ball;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes red-ball {
+    0% {
+        margin-left: 30%;
+    }
+    50% {
+        margin-left: 90%;
+    }
+    100% {
+        margin-left: 30%;
+    }
+}
+
+.container .ball:nth-child(2) {
+    background: #35ff99;
+    animation-name: green-ball;
+    animation-duration: 1.45s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes green-ball {
+    0% {
+        margin-left: 80%;
+    }
+    50% {
+        margin-left: 40%;
+    }
+    100% {
+        margin-left: 80%;
+    }
+}
+
+.container .ball:nth-child(3) {
+    background: #008597;
+    animation-name: blue-ball;
+    animation-duration: 1.42s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blue-ball {
+    0% {
+        margin-left: 30%;
+    }
+    50% {
+        margin-left: 85%;
+    }
+    100% {
+        margin-left: 30%;
+    }
+}
+
+.container .ball:nth-child(4) {
+    background: #ffcc00;
+    animation-name: yellow-ball;
+    animation-duration: 1.48s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes yellow-ball {
+    0% {
+        margin-left: 30%;
+    }
+    50% {
+        margin-left:70%;
+    }
+    100% {
+        margin-left: 30%;
+    }
+}
+
+.container .ball:nth-child(5) {
+    background: #2d3443;
+    animation-name: black-ball;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes black-ball {
+    0% {
+        margin-left: 60%;
+    }
+    50% {
+        margin-left:25%;
+    }
+    100% {
+        margin-left: 60%;
+    }
+}
+
+.container .ball:nth-child(6) {
+    background: #ff7c35;
+    animation-name: orange-ball;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes orange-ball {
+    0% {
+        margin-left: 60%;
+    }
+    50% {
+        margin-left:30%;
+    }
+    100% {
+        margin-left: 60%;
+    }
+}
+
+.container .ball:nth-child(7) {
+    background:  #4d407c;
+    animation-name: blackPurple-ball;
+    animation-duration: 1.46s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blackPurple-ball {
+    0% {
+        margin-left: 30%;
+    }
+    50% {
+        margin-left: 90%;
+    }
+    100% {
+        margin-left: 30%;
+    }
+}

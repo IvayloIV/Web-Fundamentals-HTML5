@@ -1,0 +1,76 @@
+@media all and (max-width: 480px){
+    header {
+        background: url(images/header-background.jpg) no-repeat;
+        background-size: cover;
+    }
+    .top-button-container {
+        display: none;
+    }
+    .header-title {
+        font-size: 2.9em;
+    }
+    .header-wrapper {
+        background-color: #212121;
+        text-align: center;
+    }
+    .logo-image-link img {
+        width: 151px;
+    }
+    .travel-title-container {
+        width: 100%;
+    }
+    .header-button {
+        padding: 12px 33px;
+        font-size: 1em;
+        margin-top: 4%;
+    }
+    .header-subtitle {
+        display: none;
+    }
+    .introduction-title-container .travel-title-container {
+        padding: 111px 0;
+    }
+    .introduction-subtitle {
+        width: 86%;
+        font-size: 1.3em;
+    }
+    .introduction-button, .travel-button {
+        padding: 12px 33px;
+        font-size: 1em;
+    }
+    .benefits-section {
+        padding: 30px 20px;
+    }
+    .wrapper {
+        flex-direction: column;
+    }
+    .service-info {
+        font-size: 1.3em;
+    }
+    .service-container {
+        margin-top: 30px;
+    }
+    .service-container:first-child {
+        margin-top: 10px;
+    }
+    .introduction-title, .travel-title {
+        font-size: 2.5em;
+    }
+    .travel-subtitle {
+        width: 90%;
+        font-size: 1.34em;
+    }
+    .footer-wrapper {
+        text-align: center;
+    }
+    .logo-image-container {
+        display: block;
+    }
+    .footer-list {
+        float: none;
+        margin-top: 6%;
+    }
+    .footer-list-item {
+        margin-left: 15px;
+    }
+}

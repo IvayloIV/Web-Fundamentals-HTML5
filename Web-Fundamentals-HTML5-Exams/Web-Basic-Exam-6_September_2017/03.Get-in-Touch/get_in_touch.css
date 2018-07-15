@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+@import url('https://use.fontawesome.com/releases/v5.1.0/css/all.css');
+
+body {
+    font-family: 'Lato', sans-serif;
+    width: 93%;
+    margin: 3% auto;
+}
+
+section {
+    display: inline-block;
+    vertical-align: top;
+}
+
+section#form {
+    width: 65%;
+}
+
+section#info {
+    margin-left: 6%;
+    width: 18%;
+}
+
+section#form > h1 {
+    font-weight: 900;
+    font-size: 2.2em;
+    margin-top: 10px;
+}
+
+section#form > p {
+    color: #808080;
+    font-size: 0.9em;
+}
+
+section#form div {
+    margin-top: 1.9%;
+}
+
+section#form div:first-of-type {
+    margin-top: 3%;
+}
+
+section#form label {
+    display: inline-block;
+    width: 49%;
+}
+
+section#form label span {
+    display: block;
+    color: #808080;
+    font-size: 0.9em;
+    margin-bottom: 1%;
+}
+
+section#form label input {
+    width: 95%;
+    padding: 2% 0;
+    border: 1px solid #CACACA;
+}
+
+section#form div:last-of-type label{
+    width: 100%;
+}
+
+section#form div:last-of-type label textarea{
+    width: 95%;
+    border: 1px solid #CACACA;
+}
+
+section#form input[type="submit"] {
+    background: #E8771F;
+    color: white;
+    border: none;
+    padding: 12px 35px;
+    margin-top: 2%;
+    font-weight: bold;
+    font-size: 0.75em;
+    outline: none;
+    cursor: pointer;
+}
+
+section#info article {
+    margin-top: 18%;
+}
+
+section#info article:first-of-type {
+    margin-top: 2%;
+}
+
+section#info h3 {
+    padding-bottom: 5%;
+    border-bottom: 1px solid #CACACA;
+    margin-bottom: 6%;
+}
+
+section#info i {
+    float: left;
+    color: #00B2A9;
+    font-size: 1.1em;
+    margin-top: 1%;
+}
+
+section#info article div {
+    width: 90%;
+    float: right;
+}
+
+section#info article:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+section#info article div span {
+    display: block;
+    color: #808080;
+    font-size: 0.95em;
+}

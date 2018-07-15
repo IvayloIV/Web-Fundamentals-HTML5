@@ -25,4 +25,4 @@
 
 
 ## <b>Web-Fundamentals-HTML5-Exams</b>
-1.  [**Web-Basic Exam 6 September 2017**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-Exams/Web-Basic-Exam-6_September_2017)
+1.  [**Web-Basic-Exam-6 September 2017**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-Exams/Web-Basic-Exam-6_September_2017)

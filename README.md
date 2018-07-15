@@ -22,3 +22,7 @@
 18.  [**Lab-Transitions, Animations, Grids**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-May_2018/Lab-Transitions_Animations_Grids)
 19.  [**Exercise-Responsive Design, Transitions, Animations, Grids**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-May_2018/Exercise-Responsive_Design_Transitions_Animations_Grids)
 20.  [**More-Exercises-Responsive Design, Transitions, Animations, Grids**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-May_2018/More-Exercises-Responsive_Design_Transitions_Animations_Grids)
+
+
+## <b>Web-Fundamentals-HTML5-Exams</b>
+1.  [**Web-Basic Exam 6 September 2017**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-Exams/Web-Basic-Exam-6_September_2017)

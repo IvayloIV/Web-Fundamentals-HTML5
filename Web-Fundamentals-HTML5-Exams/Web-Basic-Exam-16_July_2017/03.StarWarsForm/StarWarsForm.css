@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+@import url('https://use.fontawesome.com/releases/v5.1.0/css/all.css');
+
+body {
+    font-family: 'Lato', sans-serif;
+    background: #4C8ADD url("./images/R2D2.png") no-repeat bottom left;
+}
+
+header, main, footer {
+    width: 50%;
+    margin: 7% auto;
+}
+
+header {
+    margin-bottom: 4%;
+}
+
+header p {
+    color: #CBDDF5;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 8px;
+    font-weight: 100;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+    font-size: 1.7em;
+}
+
+main {
+    background-color: #5496EF;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+main div:first-child {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-bottom: 1px solid #A8CBEC;
+}
+
+main div:first-child label:first-of-type {
+    border-right: 1px solid #A8CBEC;
+}
+
+main div:first-child label {
+    padding: 5%;
+}
+
+main div:first-child img {
+    float: right;
+    width: 27%;
+    margin-right: 7%;
+}
+
+main div:first-child input {
+    margin-top: 10px;
+}
+
+main span {
+    color: #DAE8FB;
+    font-size: 1.1em;
+    font-weight: 100;
+}
+
+main div:nth-child(2) {
+    padding: 3.2%;
+    border-bottom: 1px solid #A8CBEC;
+}
+
+main div:nth-child(2) input {
+    background: none;
+    border: none;
+    color: white;
+    margin-left: 3%;
+    font-size: 1em;
+    -webkit-text-fill-color: white;
+}
+
+main div:nth-child(3) {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+main div:nth-child(3) label {
+    padding: 5%;
+}
+
+main div:nth-child(3) label:first-of-type {
+    border-right: 1px solid #A8CBEC;
+}
+
+main div:nth-child(3) label input {
+    background: none;
+    border: none;
+    color: white;
+    margin-left: 5%;
+    font-size: 1em;
+    -webkit-text-fill-color: white;
+}
+
+main div:nth-child(3) label i {
+    background: white;
+    padding: 1% 3%;
+    border-radius: 50%;
+    color: #5496EF;
+    margin-left: 5%;
+}
+
+main div:last-child {
+    padding: 3.4%;
+    text-align: center;
+    background-color: #3A77C8;
+    cursor: pointer;
+}
+
+main div:last-child input {
+    background: none;
+    border: none;
+    outline: none;
+    color: #DAE8FB;
+    font-size: 1em;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+main div:last-child i {
+    color: white;
+    font-size: 1.2em;
+    margin-right: 1%;
+}
+
+footer {
+    margin-top: 2%;
+    text-align: right;
+}
+
+footer p {
+    color: white;
+    font-weight: 200;
+    font-size: 1.3em;
+}
+
+footer span {
+    font-weight: 500;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 50px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    height: 20px;
+    width: 20px;
+    background-color: #5496EF;
+    border-radius: 50%;
+    border: 4px solid #325D97;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.container .checkmark:after {
+    left: 4px;
+    top: 4px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: white;
+}
+
+main > form > div:nth-child(1) > label > span:nth-child(3) {
+    margin-left: 12%;
+    font-size: 0.9em;
+}

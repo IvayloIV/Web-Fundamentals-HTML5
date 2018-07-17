@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>StarWars Form</title>
+    <link rel="stylesheet" href="StarWarsForm.css">
+</head>
+<body>
+    <header>
+        <p>may the force be with you</p>
+        <h1>Thanks for pre-ordering!</h1>
+    </header>
+    <main>
+        <form action="#">
+            <div>
+                <label class="container">
+                    <input type="radio" name="typeBuy">
+                    <span class="checkmark"></span>
+                    <span>Pay Pal</span>
+                    <img src="./images/PayPal.png" alt="PayPal">
+                </label>
+                <label class="container">
+                    <input type="radio" name="typeBuy">
+                    <span class="checkmark"></span>
+                    <span>Debit/Credit Card</span>
+                    <img src="./images/MasterCard.png" alt="MasterCard">
+                </label>
+            </div>
+            <div>
+                <label>
+                    <span>Card Number</span>
+                    <input type="number" name="cardNumber" placeholder="4111 1111 1111 1111">
+                </label>
+            </div>
+            <div>
+                <label>
+                    <span>Expiry</span>
+                    <input type="number" name="date" placeholder="MM/YY">
+                </label>
+                <label>
+                    <span>CSV</span>
+                    <input type="number" name="CSV" placeholder="123">
+                    <i class="fas fa-exclamation"></i>
+                </label>
+            </div>
+            <div>
+                <i class="fas fa-lock"></i>
+                <input type="submit" name="FinishPay" value="Finish and Pay">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>That's <span>$19.99</span></p>
+    </footer>
+</body>
+</html>

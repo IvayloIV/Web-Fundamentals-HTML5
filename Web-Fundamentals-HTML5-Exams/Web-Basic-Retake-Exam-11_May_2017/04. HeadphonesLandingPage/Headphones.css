@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header > div:first-of-type {
+    display: grid;
+    grid-template-columns: 20% auto;
+}
+
+header div ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header div ul li {
+    padding: 1% 8%;
+}
+
+header div ul a {
+    color: #888888;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.93em;
+}
+
+header div ul a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+
+body > header > div:nth-child(1) > div:nth-child(1) {
+    text-align: right;
+    align-self: center;
+}
+
+header div span {
+    font-weight: 700;
+    font-size: 1.1em;
+    margin-left: 6%;
+    position: relative;
+    bottom: 10%;
+}
+
+header > div:last-child {
+    background: url("./img/background-image.png") no-repeat center;
+    background-size: cover;
+    height: 520px;
+}
+
+header > div:last-child {
+    color: white;
+    text-align: center;
+}
+
+header > div:last-child h1 {
+    margin: 0.8%;
+    padding-top: 12%;
+    text-shadow: 1px 1px 1px #A0A0AA;
+    text-transform: uppercase;
+}
+
+header > div:last-child p {
+    width: 45%;
+    margin: 4% auto 0;
+    color: black;
+    font-size: 1.2em;
+    text-shadow: 1px 1px 2px #F3F7FF;
+}
+
+header button {
+    background: #FFCD02;
+    border: none;
+    color: white;
+    padding: 0.8% 4%;
+    text-transform: uppercase;
+    margin-top: 3%;
+    border-radius: 23px;
+    font-size: 1em;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    text-shadow: 1px 1px 0 #BB9A15;
+}
+
+header button:hover {
+    background-color: #19CDFA;
+}
+
+.offers {
+    display: flex;
+}
+
+.offers article {
+    width: 50%;
+    text-align: center;
+    text-transform: uppercase;
+    height: 270px;
+    color: #fff;
+}
+
+.offers article h2 {
+    padding-top: 13%;
+    font-size: 1.8em;
+    text-shadow: 1px 1px 1px #A0A0AA;
+    margin-right: 15%;
+    font-weight: 600;
+}
+
+.offers article p {
+    text-shadow: 1px 1px 1px #108FAF;
+    margin-right: 15%;
+    margin-top: 5%;
+    font-weight: 500;
+}
+
+.offers article:first-of-type {
+    background: #18CDFA url("./img/headphone-yellow.png") no-repeat center;
+    background-size: cover;
+}
+
+.offers article:last-of-type {
+    background: url("./img/headphone-black.png") no-repeat center;
+    background-size: cover;
+}
+
+.products {
+    background-color: #F6F7FB;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.products h2 {
+    color: #000;
+    text-transform: uppercase;
+    margin-top: 0;
+    padding: 3% 0;
+    font-size: 2em;
+    grid-column: 1/4;
+    margin-bottom: 1%;
+}
+
+.products article {
+    background-color: white;
+    margin-left: 6%;
+    margin-right: 6%;
+    padding: 5% 0 7% 0;
+    margin-bottom: 10%;
+}
+
+.products article img {
+    width: 57%;
+}
+
+.products article p {
+    text-transform: uppercase;
+    color: #3DC9ED;
+    font-weight: 700;
+    font-size: 0.85em;
+}
+
+.products article h4 {
+    color: #818996;
+    font-size: 1.8em;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 6%;
+}
+
+.offers:last-of-type article:first-of-type {
+    background: url("./img/showcase1.png") no-repeat center;
+    background-size: cover;
+}
+
+.offers:last-of-type article:last-of-type {
+    background: #FC3698 url("./img/showcase2.png") no-repeat center;
+    background-size: cover;
+}
+
+footer {
+    background-color: #F6F7FB;
+}
+
+footer h2 {
+    margin-top: 0;
+    text-align: center;
+    padding-top: 3%;
+    font-size: 2.3em;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 3%;
+}
+
+footer section {
+    display: flex;
+    justify-content: center;
+}
+
+footer section article {
+    flex: 1 1 0;
+    padding: 0 3%;
+}
+
+footer section article img {
+    width: 90%;
+    box-shadow: 5px 5px 5px 0 rgba(180,181,185,0.55);
+}
+
+footer section article p:first-of-type {
+    color: #A7A7A9;
+    font-weight: 500;
+    margin-top: 4%;
+}
+
+footer section article h3 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1em;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+footer section article p:last-of-type {
+    color: #A6A9B0;
+    font-weight: 500;
+}
+
+footer section article div {
+    margin-top: 5%;
+}
+
+footer section article div a{
+    text-transform: uppercase;
+    color: #3EC8EC;
+    font-weight: 600;
+    font-size: 0.97em;
+    text-decoration: none;
+}

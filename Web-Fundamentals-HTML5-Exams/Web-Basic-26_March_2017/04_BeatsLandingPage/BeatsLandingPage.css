@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header div img {
+    width: 80%;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0;
+    width: 80%;
+    margin: 2% auto 5%;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #9E9E9E;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9em;
+    padding-bottom: 3%;
+}
+
+header ul li a:hover {
+    color: #404040;
+    border-bottom: 2px solid #9E9E9E;
+}
+
+header > div {
+    display: grid;
+    grid-template-columns: 45% auto;
+    grid-gap: 3%;
+}
+
+header > div div {
+    padding: 2%;
+}
+
+header > div div:first-of-type {
+    padding-left: 35%;
+    padding-top: 18%;
+}
+
+header > div div:first-of-type h1 {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 2.6em;
+    letter-spacing: 5px;
+}
+
+header > div div:first-of-type p {
+    padding-top: 3%;
+    font-size: 1em;
+    padding-bottom: 5%;
+    color: #878787;
+}
+
+header > div div:first-of-type button {
+    background: #FF0000;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 3.3% 12%;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+
+#powerbeats {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    margin-top: 5%;
+    background-color: #FBFCFF;
+}
+
+#powerbeats > div {
+    padding: 5%;
+}
+
+#powerbeats > div:first-of-type {
+    padding-right: 0;
+}
+
+#powerbeats > div:last-of-type {
+    padding-left: 0;
+}
+
+#powerbeats > div:last-of-type h2 {
+    font-size: 4.5em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    margin: 3% 0 0;
+}
+
+#powerbeats > div:last-of-type p:first-of-type {
+    text-transform: uppercase;
+    text-align: right;
+    margin-right: 23%;
+    font-size: 1.08em;
+    margin-top: 2%;
+}
+
+#powerbeats > div:last-of-type p:first-of-type span {
+    font-weight: bold;
+}
+
+#powerbeats > div:last-of-type p:last-of-type {
+    margin-top: 13%;
+    color: #878787;
+    width: 77%;
+    font-size: 1.1em;
+    margin-bottom: 8%;
+}
+
+#powerbeats > div:last-of-type h4 {
+    display: inline-block;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+#powerbeats > div button {
+    background: #FF0000;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 2.2% 9%;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 30px;
+    margin-left: 6%;
+    position: relative;
+    bottom: 0.5em;
+}
+
+header > div div:first-of-type button:hover, #powerbeats button:hover {
+    background-color: #DC0202;
+}
+
+#powerbeats > div > img {
+    width: 80%;
+}
+
+#tryFree {
+    background-color: #575757;
+    text-align: center;
+}
+
+#tryFree h3 {
+    font-size: 1.4em;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 300;
+    margin-top: 0;
+    padding-top: 1%;
+}
+
+#tryFree img {
+    width: 3.8%;
+    position: relative;
+    top: 0.8em;
+    right: 0.9em;
+}
+
+#tryFree span {
+    font-weight: 700;
+    font-size: 0.96em;
+}
+
+#tryFree p {
+    margin-top: 5%;
+    margin-bottom: 0;
+    padding-bottom: 2%;
+    text-transform: uppercase;
+}
+
+#tryFree p a {
+    color: white;
+    border-bottom: 2px solid #878788;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding-bottom: 0.5%;
+    font-weight: 600;
+}
+
+#giveLife {
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+
+#giveLife > div:first-of-type {
+    background: url("./img/beats-girl.png") no-repeat center;
+    background-size: cover;
+    height: 685px;
+}
+
+#giveLife > div:last-of-type{
+    background: #DADADA url("./img/beats-red.png") no-repeat 24em;
+}
+
+#giveLife > div:last-of-type h2 {
+    color: #333333;
+    font-size: 9em;
+    text-transform: uppercase;
+    padding-left: 8%;
+    width: 60%;
+    margin-top: 18%;
+    margin-bottom: 6%;
+}
+
+#giveLife > div:last-of-type p {
+    margin-left: 9%;
+    color: #626262;
+    font-size: 3em;
+    margin-top: 6%;
+}
+
+#giveLife > div:last-of-type p span {
+    color: #FE0505;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#giveLife img {
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+    color: #888888;
+    font-size: 1.3em;
+}

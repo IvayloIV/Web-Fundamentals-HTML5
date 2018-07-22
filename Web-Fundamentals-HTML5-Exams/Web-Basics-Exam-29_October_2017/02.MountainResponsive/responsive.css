@@ -1,0 +1,94 @@
+@media all and (max-width: 479px) {
+    body .menu {
+        padding: 7% 5% 7% 5%;
+        box-sizing: border-box;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu ul {
+        display: none;
+    }
+    .menu span {
+        margin: 0;
+    }
+    .about-us {
+        padding-top: 0;
+        padding-left: 0;
+    }
+    .fas {
+        display: inline-block;
+        cursor: pointer;
+    }
+    .views {
+        flex-direction: column;
+    }
+    .about-us {
+        padding: 4%;
+        box-sizing: border-box;
+    }
+    .about-us h1 {
+        font-size: 1.5em;
+        margin-top: 7%;
+    }
+    .about-us p {
+        width: 100%;
+        display: inline-block;
+    }
+    .best-place .headings {
+        margin-top: 8%;
+        font-size: 1.4em;
+        width: 100%;
+        font-weight: bold;
+    }
+    .best-place {
+        height: auto;
+    }
+    .best-place hr {
+        width: 24%;
+    }
+    .best-place .paragraph {
+        width: 85%;
+    }
+    .views img {
+        width: 96%;
+    }
+    .views img:last-of-type {
+        margin-top: 4%;
+    }
+    #second-heading {
+        width: 100%;
+        margin: 10% auto 0;
+        font-weight: 900;
+        font-size: 1.4em;
+    }
+    .why-us {
+        flex-direction: column;
+    }
+    .why-us article {
+        width: 100%;
+    }
+    .why-us article:last-of-type {
+        padding-bottom: 7%;
+    }
+    .headings:last-of-type {
+        width: 100%;
+        font-size: 1.4em;
+        font-weight: 900;
+        margin: 7% auto 0;
+    }
+    .final-section hr {
+        width: 20%;
+    }
+    .our-team {
+        align-items: center;
+        flex-direction: column;
+    }
+    .team-presenting {
+        margin-bottom: 0;
+    }
+    .our-team article{
+        margin-right: 0;
+        margin-bottom: 4%;
+    }
+}

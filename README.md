@@ -29,3 +29,4 @@
 2.  [**Web-Basic-Exam-16 July 2017**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-Exams/Web-Basic-Exam-16_July_2017)
 3.  [**Web-Basic-Retake-Exam-11 May 2017**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-Exams/Web-Basic-Retake-Exam-11_May_2017)
 4.  [**Web-Basic-26 March 2017**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-Exams/Web-Basic-26_March_2017)
+5.  [**Web-Basics-Exam-29 October 2017**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-Exams/Web-Basics-Exam-29_October_2017)

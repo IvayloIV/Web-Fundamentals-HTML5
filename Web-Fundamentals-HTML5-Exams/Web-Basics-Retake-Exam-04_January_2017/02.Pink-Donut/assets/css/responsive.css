@@ -1,0 +1,29 @@
+@media all and (max-width: 768px) {
+    .col-sm-6 {
+        width: 100%;
+    }
+    .contact .btn_bg a {
+        display: none;
+    }
+    .contact_socail_bookmark {
+        display: none;
+    }
+    .separator {
+        margin-bottom: 16%;
+    }
+    #contact > div > div:nth-child(2) > div > div:nth-child(2) {
+        display: none;
+    }
+    .single_copyirgth p {
+        margin-bottom: 2%;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-nav {
+        display: none;
+    }
+    .navbar-header {
+      float: right;
+    }
+}

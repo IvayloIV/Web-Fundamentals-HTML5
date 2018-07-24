@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: url("./images/bg-01-1920x908.jpg") no-repeat center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+header div:first-child {
+    padding: 1.5% 2% 0 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header div:first-child  button {
+    background: #FF4514;
+    border: none;
+    color: white;
+    padding: 0.2% 2.5%;
+    border-radius: 7px;
+    font-size: 0.74em;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+
+header h1 {
+    margin-top: 7%;
+    margin-bottom: 10%;
+    font-weight: 400;
+    font-size: 3.4em;
+    letter-spacing: 15px;
+}
+
+header p {
+    width: 65%;
+    font-weight: 500;
+    margin: 0 auto 3%;
+}
+
+header div:last-child button{
+    background: none;
+    padding: 0.8% 4.5%;
+    border: 2px solid #FF4514;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 0.75em;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 9%;
+}
+
+header div:last-child button:first-of-type {
+    margin-right: 1%;
+}
+
+header div:last-child button:last-of-type {
+    margin-left: 1%;
+}
+
+header div:last-child button:hover {
+    background: #FF4514;
+}
+
+#learn h2{
+    text-align: center;
+    font-size: 2.2em;
+    font-weight: 600;
+    margin-top: 3.6%;
+}
+
+#learn div {
+    display: flex;
+    width: 90%;
+    text-align: center;
+    margin-top: 6%;
+}
+
+#learn div article {
+    vertical-align: top;
+    padding: 0 5.5%;
+}
+
+#learn div article img {
+    margin-bottom: 20%;
+}
+
+#learn div article:nth-of-type(2) img {
+    margin-bottom: 15%;
+}
+
+#learn div article h3 {
+    color: #808080;
+    font-weight: 400;
+    font-size: 1.2em;
+    padding-bottom: 0;
+}
+
+#learn div article h4 {
+    margin-top: 3%;
+    font-size: 0.93em;
+}
+
+#learn div article p {
+    color: #808080;
+    margin-bottom: 30%;
+}
+
+#speakers h2{
+    text-align: center;
+    font-size: 2.2em;
+    font-weight: 600;
+    margin-bottom: 1.7%;
+}
+
+#speakers > p {
+    text-align: center;
+    color: #808080;
+}
+
+#speakers div {
+    display: flex;
+    width: 90%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+#speakers div article {
+    vertical-align: top;
+    padding: 0 5%;
+    margin-bottom: 2%;
+}
+
+#speakers div article img {
+    border-radius: 50%;
+    width: 33%;
+}
+
+#speakers div article h3 {
+    font-weight: 500;
+    margin-top: 9%;
+    margin-bottom: 11%;
+}
+
+#speakers div article:nth-of-type(3) {
+    padding-top: 0.3%;
+}
+
+#speakers div article:nth-of-type(3) h3 {
+    margin-top: 13%;
+}
+
+#speakers div article h4 {
+    color: #FF4514;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+#speakers div article p {
+    color: #808080;
+}
+
+footer {
+    background: #191919;
+    color: white;
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-gap: 15%;
+}
+
+footer div:first-of-type {
+    padding: 10% 0 0 18%;
+}
+
+footer div:first-of-type h4 {
+    font-style: oblique;
+    font-size: 0.95em;
+    margin-top: 6%;
+    margin-bottom: 5%;
+}
+
+footer div:first-of-type p {
+    margin: 0;
+    color: #808080;
+    font-size: 1.1em;
+    font-style: oblique;
+}
+
+footer div:nth-of-type(2) {
+    align-self: center;
+    padding-bottom: 6%;
+}
+
+footer div:nth-of-type(2) h2 {
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 1%;
+}
+
+footer div:nth-of-type(2) p {
+    width: 80%;
+    font-size: 0.96em;
+    margin-top: 2%;
+}
+
+footer div:nth-of-type(2) span {
+    color: #808080;
+    font-size: 1.6em;
+    position: absolute;
+    left: 90%;
+    top: 79.4em;
+    font-style: italic;
+}
+
+footer > p {
+    grid-column: 1/3;
+    text-align: center;
+    padding: 1%;
+    color: #808080;
+}

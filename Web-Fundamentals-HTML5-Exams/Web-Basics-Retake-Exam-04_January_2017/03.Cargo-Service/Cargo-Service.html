@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cargo Service</title>
+    <link rel="stylesheet" href="Cargo-Service.css">
+</head>
+<body>
+    <main>
+        <h1>Basic calculated fields sample.</h1>
+        <div class="line"></div>
+        <form action="#">
+            <label>
+                <span>Distance (mi) *</span>
+                <input type="text" placeholder="Enter Distance" name="distance">
+            </label>
+            <div>
+                <label>
+                    <span>Weight (lb)</span>
+                    <input type="number" placeholder="Enter Weight" name="weight">
+                </label>
+                <label>
+                    <span>Fragile</span>
+                    <select>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <label>
+                    <span>Length (in)</span>
+                    <input type="number" placeholder="Length" name="length">
+                </label>
+                <label>
+                    <span>height (in)</span>
+                    <input type="number" placeholder="height" name="height">
+                </label>
+                <label>
+                    <span>width (in)</span>
+                    <input type="number" placeholder="10" name="width">
+                </label>
+            </div>
+            <div>
+                <span>Extra services:</span>
+                <label class="container">
+                    <span>
+                        <input type="radio" name="services">
+                        <span class="checkmark"></span>
+                        <span>Insurance</span>
+                    </span>
+                </label>
+                <label class="container">
+                    <span>
+                        <input type="radio" name="services">
+                        <span class="checkmark"></span>
+                        <span>Express Delivery</span>
+                    </span>
+                </label>
+            </div>
+            <div>
+                <h3>total:</h3>
+                <p>$ 00.00</p>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

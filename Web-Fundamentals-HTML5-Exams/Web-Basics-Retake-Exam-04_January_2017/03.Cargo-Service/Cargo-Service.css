@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700');
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body > main {
+    width: 30%;
+    margin: 0 auto;
+}
+
+main h1 {
+    font-size: 1.6em;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-bottom: 2px solid #F2F2F2;
+    padding-bottom: 1%;
+    margin-bottom: 0;
+}
+
+.line {
+  border-top: 2px solid #FCA900;
+    width: 16%;
+    margin-bottom: 9%;
+    position: relative;
+    bottom: 2px;
+}
+
+main form > label:first-child span, main form div:first-of-type span, main form div:nth-of-type(2) span{
+    display: block;
+    font-weight: 600;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin-bottom: 2%;
+}
+
+main form > label:first-child input, main form div:first-of-type input, main form div:first-of-type select, main form div:nth-of-type(2) input{
+    width: 93%;
+    padding: 2.2% 3%;
+    outline: none;
+    margin-bottom: 5%;
+    border: 2px solid #EFEFEF;
+}
+
+main form div:first-of-type {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-gap: 6%;
+}
+
+main form div:first-of-type input, main form div:first-of-type select {
+    padding: 3.5% 4%;
+    width: 90%;
+    margin-bottom: 10%;
+}
+
+main form div:nth-of-type(2) {
+    display: grid;
+    grid-template-columns: repeat(3, 29%);
+    grid-gap: 6%;
+}
+
+main form div:nth-of-type(2) input {
+    width: 90%;
+    padding: 7% 7%;
+    margin-bottom: 20%;
+}
+
+main form div:nth-of-type(3){
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 38%);
+}
+
+main form div:nth-of-type(3) label span {
+    font-weight: 600;
+    font-size: 0.97em;
+}
+
+main form div:nth-of-type(3) > span {
+    font-weight: 600;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+main form div:nth-of-type(4) {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #EFEFEF;
+    margin-top: 7%;
+    border-bottom: 2px solid #EFEFEF;
+}
+
+main form div:nth-of-type(4) h3 {
+    margin: 4% 0;
+    align-self: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+main form div:nth-of-type(4) p {
+    margin: 4% 0;
+    align-self: center;
+    font-weight: 400;
+    color: #FCA900;
+    font-size: 1.3em;
+}
+
+::placeholder {
+    color: #858585;
+    font-size: 1.05em;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid #FCA900;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.container .checkmark:after {
+    left: -1px;
+    top: -1px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #FCA900;
+}
+
+main form > label:first-child input:focus, main form div:first-of-type input:focus, main form div:first-of-type select:focus, main form div:nth-of-type(2) input:focus, main form div:nth-of-type(2) input:focus{
+    border: 2px solid #FCA900;
+}

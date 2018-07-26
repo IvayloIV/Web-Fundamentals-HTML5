@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Neucha');
+@import url('https://use.fontawesome.com/releases/v5.2.0/css/all.css');
+
+body {
+    font-family: 'Neucha', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+}
+
+header div:first-child img {
+    width: 12.4%;
+    margin-left: 3%;
+}
+
+header div:first-child div {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 4%;
+}
+
+header div:first-child div i {
+    padding: 9px 10% 10%;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+header > div:last-child {
+    background: url("./images/background.jpg") no-repeat bottom;
+    background-size: cover;
+}
+
+header > div:last-child ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header > div:last-child ul li {
+    padding: 3% 2%;
+    width: 8%;
+}
+
+header > div:last-child ul a {
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    width: 100%;
+    font-size: 1.2em;
+}
+
+header > div:last-child h1 {
+    color: white;
+    font-size: 5em;
+    margin: 3% auto;
+    padding-bottom: 9%;
+}
+
+header > div:last-child h1 span {
+    display: block;
+}
+
+#animals h2 {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 2.5em;
+    margin-bottom: 1%;
+}
+
+#animals h3 {
+    text-align: center;
+    font-size: 1.7em;
+    margin: 0;
+}
+
+#animals div {
+    display: flex;
+    width: 65%;
+    margin: 2% auto;
+    text-align: center;
+}
+
+#animals div article {
+    margin-left: 4%;
+}
+
+#animals div article:first-of-type {
+    margin: 0;
+}
+
+#animals div article h4 {
+    margin-top: 2%;
+    font-size: 1.2em;
+    margin-bottom: 11%;
+}
+
+#animals div article p {
+    width: 80%;
+    margin: 1% auto 7%;
+    font-weight: 600;
+}
+
+#animals div article button {
+    background: #91D1EA;
+    border: none;
+    color: white;
+    padding: 2.3% 7%;
+    font-size: 0.9em;
+    cursor: pointer;
+    outline: none;
+    margin-top: 4%;
+    margin-bottom: 30%;
+}
+
+#animals img {
+    width: 30%;
+    margin-top: 12%;
+}
+
+#image article {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#image article:last-of-type {
+    margin-bottom: 5%;
+}
+
+#image img {
+    width: 100%;
+}
+
+footer {
+    background: #82CA9C;
+    padding: 0.02% 0 0.8%;
+    text-align: center;
+    color: white;
+}
+
+footer h2 {
+    font-size: 1.8em;
+}
+
+footer p {
+    font-size: 1.3em;
+    letter-spacing: 1px;
+}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700');
+
+body {
+    font-family: 'Karla', sans-serif;
+    background: #D3D3D3;
+}
+
+body > main {
+    width: 95%;
+    margin: 3% auto;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 2.5%;
+}
+
+main section {
+    display: flex;
+}
+
+main section article {
+    margin-left: 3%;
+    padding: 2% 1.5%;
+    background: #87CEEB;
+    border: 2px solid #0000FF;
+    border-radius: 20px;
+    text-align: center;
+}
+
+main section article:first-of-type {
+    margin-left: 0;
+}
+
+main section article img {
+    width: 80%;
+}
+
+main section article:first-of-type img {
+    width: 80%;
+    height: 190px;
+}
+
+main section article p span {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+main section article button {
+    background: #D3D3D3;
+    border: 1px solid #0000FF;
+    padding: 3.2% 6%;
+    text-transform: uppercase;
+    border-radius: 10px;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    cursor: pointer;
+    outline: none;
+}

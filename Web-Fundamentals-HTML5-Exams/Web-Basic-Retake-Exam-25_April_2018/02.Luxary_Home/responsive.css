@@ -1,0 +1,117 @@
+@media all and (max-width: 480px) {
+    .gallery, .magazine article, .options {
+        flex-direction: column;
+    }
+    .blog-title a, .blog-title h4 span, .blog article img, .magazine-title a, .div-logo, .div-header {
+        display: none;
+    }
+    .magazine-title h4 {
+        font-size: 2em;
+    }
+    .magazine-title, .blog-title {
+        padding: 0;
+    }
+    .logo-center {
+        width: 34%;
+        padding-top: 11px;
+    }
+    header h3 {
+        font-size: 1.05em;
+    }
+    header h1 {
+        font-size: 1.7em;
+    }
+    .button-header {
+        margin: 20% 0 9%;
+    }
+    .options article {
+        width: 100%;
+        text-align: center;
+    }
+    .gallery article {
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .gallery article:last-of-type {
+        margin-bottom: 0;
+    }
+    .gallery article>img {
+        width: 81%;
+    }
+    .gallery article a {
+        margin-left: 0;
+    }
+    .blog-title {
+        width: 100%;
+        text-align: center;
+    }
+    .blog-title h4 {
+        font-size: 1.8em;
+        text-align: center;
+        margin: 8% auto 3%
+    }
+    #about-blog {
+        width: 96%;
+    }
+    #about-blog h3 {
+        font-size: 1.1em;
+    }
+    .magazine {
+        text-align: center;
+    }
+    .magazine .magazine-title {
+        width: 100%;
+    }
+    .magazine .magazine-title h4 {
+        font-size: 1.5em;
+        margin-left: 2%;
+    }
+    #magazine-img {
+        border: none;
+        width: 76%;
+        margin: 8% auto;
+        padding-left: 1%;
+    }
+    .magazine article {
+        width: 100%;
+    }
+    .magazine .magazine-info {
+        margin-left: 0;
+    }
+    .magazine-info h2 {
+        padding-top: 0;
+    }
+    .magazine-info img {
+        width: 100%;
+        margin-bottom: 3%;
+        height: auto;
+    }
+    .magazine-info p {
+        margin-top: 6%;
+        font-size: 0.9em;
+        padding: 0 6%;
+    }
+    .magazine-info button {
+        margin: 9% 0 5%;
+    }
+    footer {
+        margin-top: 0;
+        flex-direction: column;
+        padding-bottom: 2%;
+    }
+    footer p {
+        font-size: 1.3em;
+    }
+    .icons a {
+        width: 100%;
+        display: block;
+        margin-top: 3%;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .magazine-title h4 span {
+        display: block;
+        padding-left: 0;
+    }
+}

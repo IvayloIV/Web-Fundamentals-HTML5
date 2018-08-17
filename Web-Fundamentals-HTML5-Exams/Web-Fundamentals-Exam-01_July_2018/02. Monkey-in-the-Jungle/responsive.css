@@ -1,0 +1,71 @@
+@media all and (max-width: 480px) {
+    body {
+        background: #1e1f23 url(images/bg.jpg) no-repeat top;
+        background-size: 464px;
+        padding-top: 5.5rem;
+    }
+    header > .logo a {
+        font-size: 3rem;
+    }
+    header > .logo {
+        margin: 0 0 2rem 0;
+    }
+    .wrapper > header.special {
+        padding: 2rem;
+    }
+    .wrapper > header h2 {
+        padding-bottom: 4%;
+        margin-bottom: 5%;
+    }
+    .wrapper > header h2:after {
+        width: 60%;
+    }
+    .wrapper > header p {
+        letter-spacing: 2px;
+        font-size: 0.8em;
+    }
+    .wrapper.style1 .content {
+        padding: 7%;
+    }
+    .content p {
+        margin: 0;
+        color: #A8A8A8;
+        font-size: 0.89em;
+    }
+    .content p:last-of-type {
+        margin-top: 7%;
+    }
+    .wrapper.style2 {
+        padding: 2rem;
+    }
+    .wrapper.style2 header h2 {
+        margin-top: 0;
+    }
+    .wrapper.style2 header p {
+        font-size: 0.7em;
+    }
+    .wrapper.style2 header {
+        padding: 8%;
+    }
+    .gallery {
+        flex-direction: column;
+    }
+    .gallery > * {
+        width: 100%;
+    }
+    .spotlight > * {
+        width: 100%;
+    }
+    .spotlight .inner {
+        padding: 7% 10%;
+        text-align: center;
+    }
+    .spotlight p:last-child {
+        color: #969696;
+        font-size: 0.91em;
+    }
+    footer {
+        font-size: 0.7em;
+        margin: 0 0 8% 0;
+    }
+}

@@ -4,6 +4,8 @@
 ## <b>Web-Fundamentals-HTML5-September 2018</b>
 1.  [**Lab-Introduction to HTML and CSS**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-September_2018/Lab-Introduction_to_HTML_and_CSS)
 2.  [**Exercise-Introduction to HTML and CSS**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-September_2018/Exercise-Introduction_to_HTML_and_CSS)
+3.  [**Lab-CSS Typography**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-September_2018/Lab-CSS_Typography)
+4.  [**Exercise-CSS Typography**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-September_2018/Exercise-CSS_Typography)
 
 ## <b>Web-Fundamentals-HTML5-May 2018</b>
 1.  [**Lab-HTML and CSS Overview**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-May_2018/Lab-HTML_and_CSS_Overview)

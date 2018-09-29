@@ -1,0 +1,23 @@
+@import url('https://use.fontawesome.com/releases/v5.3.1/css/all.css');
+
+html {
+    padding: 5%;
+}
+
+p:first-of-type {
+    margin-bottom: 3%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 0.8% 1%;
+    border-radius: 0.4em;
+}
+p:first-of-type a {
+    background-color: #008000;
+}
+
+p:last-child a {
+    background-color: #FF8C00;
+}

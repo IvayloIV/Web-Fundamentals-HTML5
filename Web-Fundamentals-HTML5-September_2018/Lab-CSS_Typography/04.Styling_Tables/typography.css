@@ -1,0 +1,29 @@
+table {
+    width: 80%;
+    margin: 2% auto;
+    table-layout: fixed;
+}
+
+table, tr, td {
+    border: 1px solid #CCCCCC;
+    border-collapse: collapse;
+}
+
+tr, td, th {
+    padding: 0.5%;
+}
+
+table thead {
+    text-align: left;
+    background-color: #CCCCCC;
+}
+
+table tr:nth-child(odd) td {
+    background-color: #F1F1F1;
+}
+
+table tbody tr:hover td{
+    background-color: #000000;
+    color: #ffffff;
+    border-color: transparent;
+}

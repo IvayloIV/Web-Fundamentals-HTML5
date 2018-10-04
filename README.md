@@ -6,6 +6,7 @@
 2.  [**Exercise-Introduction to HTML and CSS**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-September_2018/Exercise-Introduction_to_HTML_and_CSS)
 3.  [**Lab-CSS Typography**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-September_2018/Lab-CSS_Typography)
 4.  [**Exercise-CSS Typography**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-September_2018/Exercise-CSS_Typography)
+5.  [**Lab-CSS Box Model Floats**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-September_2018/Lab-CSS_Box_Model_Floats)
 
 ## <b>Web-Fundamentals-HTML5-May 2018</b>
 1.  [**Lab-HTML and CSS Overview**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-May_2018/Lab-HTML_and_CSS_Overview)

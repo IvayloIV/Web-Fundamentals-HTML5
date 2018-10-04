@@ -1,0 +1,51 @@
+html {
+    font-family: "Helvetica", sans-serif;
+    font-size: 1em;
+    line-height: 1.2;
+    padding: 4% 5%;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+section {
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    width: 30vw;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.39);
+}
+
+img {
+    width: 100%;
+}
+
+div:nth-of-type(2) {
+    padding: 3% 6%;
+}
+
+div:nth-of-type(2) h3 {
+    margin-top: 2%;
+    margin-bottom: 0;
+}
+
+div:nth-of-type(2) p {
+    margin-top: 2%;
+}
+
+button {
+    background-color: #029A01;
+    border: none;
+    color: white;
+    padding: 2.8% 6%;
+    border-radius: 5px;
+    margin: 7% 4% 4% 4%;
+    outline: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+div:nth-of-type(2) div:last-child {
+    text-align: right;
+    margin: 0;
+}

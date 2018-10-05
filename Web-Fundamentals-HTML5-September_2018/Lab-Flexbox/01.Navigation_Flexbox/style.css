@@ -1,0 +1,46 @@
+html {
+    padding: 3em 5em;
+}
+
+h1, h2 {
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-size: 2.4em;
+}
+
+h2 {
+    margin-top: 3%;
+}
+
+nav {
+    width: 35vw;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 5%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}

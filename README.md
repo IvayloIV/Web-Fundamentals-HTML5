@@ -8,6 +8,7 @@
 4.  [**Exercise-CSS Typography**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-September_2018/Exercise-CSS_Typography)
 5.  [**Lab-CSS Box Model Floats**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-September_2018/Lab-CSS_Box_Model_Floats)
 6.  [**Lab-Flexbox**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-September_2018/Lab-Flexbox)
+7.  [**Exercise-CSS Box Model Floats - Flexbox**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-September_2018/Exercise-CSS_Box_Model_Floats-Flexbox)
 
 ## <b>Web-Fundamentals-HTML5-May 2018</b>
 1.  [**Lab-HTML and CSS Overview**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-May_2018/Lab-HTML_and_CSS_Overview)

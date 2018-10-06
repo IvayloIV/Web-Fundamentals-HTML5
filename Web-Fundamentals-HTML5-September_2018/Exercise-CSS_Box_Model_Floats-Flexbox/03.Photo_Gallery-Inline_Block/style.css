@@ -1,0 +1,25 @@
+body {
+    background-color: #EEEEEE;
+    padding: 3em 6em;
+}
+
+.gallery {
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    width: 25%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    vertical-align: middle;
+    padding: 1%;
+    background-color: white;
+    border: 5px solid black;
+}
+
+ul li img {
+    width: 100%;
+}

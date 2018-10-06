@@ -1,0 +1,38 @@
+body {
+    padding: 3rem 4rem;
+    background-color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    padding: 2% 0 10% 2%;
+    background-color: #FFFFFF;
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: 0px 0px 37px -3px rgba(0,0,0,0.61);
+}
+
+main, aside {
+    display: inline-block;
+}
+
+main {
+    display: inline-block;
+    width: 55%;
+    margin-right: 3%;
+}
+
+aside {
+    display: inline-block;
+    width: 41%;
+}
+
+main p {
+    padding-bottom: 35%;
+}
+
+aside p {
+    padding-bottom: 47%;
+    margin: 0;
+}

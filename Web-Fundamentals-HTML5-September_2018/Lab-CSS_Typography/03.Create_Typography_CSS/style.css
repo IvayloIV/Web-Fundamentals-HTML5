@@ -62,7 +62,7 @@ table tr:nth-child(odd) td {
 
 blockquote {
     margin: 2% 3%;
-    border-left: 3px solid rgb(221,221,221);
+    border-left: 4px solid rgb(221,221,221);
     padding-left: 2.6%;
     font-style: italic;
 }

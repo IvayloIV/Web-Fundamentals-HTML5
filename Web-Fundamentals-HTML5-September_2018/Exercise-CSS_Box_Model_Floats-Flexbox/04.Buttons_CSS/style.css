@@ -22,6 +22,7 @@ div button {
 }
 
 .normal button:hover {
+	background-color: white;
     color: #155B12;
     border-color: #155B12;
 }

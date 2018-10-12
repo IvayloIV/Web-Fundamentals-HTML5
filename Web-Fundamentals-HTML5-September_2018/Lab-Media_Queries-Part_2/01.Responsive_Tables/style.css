@@ -1,0 +1,22 @@
+@import url('./typography.css');
+
+@media screen and (max-width: 800px){
+    table thead {
+        display: none;
+    }
+
+    tbody td {
+        display: block;
+    }
+
+    tbody td:before {
+        content: attr(data-label);
+        display: inline-block;
+        font-weight: bold;
+        margin-right: 2.4%;
+    }
+
+    tbody tr {
+        border: 2px solid #666;
+    }
+}

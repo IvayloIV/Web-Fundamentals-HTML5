@@ -10,7 +10,7 @@
 6.  [**Lab-Flexbox**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-September_2018/Lab-Flexbox)
 7.  [**Exercise-CSS Box Model Floats - Flexbox**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-September_2018/Exercise-CSS_Box_Model_Floats-Flexbox)
 8.  [**Lab-Media Queries Part-1**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-September_2018/Lab-Media_Queries-Part_1)
-9.  [**Lab-Media Queries Part_2**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-September_2018/Lab-Media_Queries-Part_2)
+9.  [**Lab-Media Queries Part-2**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-September_2018/Lab-Media_Queries-Part_2)
 
 ## <b>Web-Fundamentals-HTML5-May 2018</b>
 1.  [**Lab-HTML and CSS Overview**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-May_2018/Lab-HTML_and_CSS_Overview)

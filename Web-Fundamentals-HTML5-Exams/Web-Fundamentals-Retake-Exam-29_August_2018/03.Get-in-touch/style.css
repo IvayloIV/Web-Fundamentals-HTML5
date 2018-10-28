@@ -1,0 +1,101 @@
+@import url('https://use.fontawesome.com/releases/v5.4.2/css/all.css');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,800,900');
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(rgba(132, 106, 221, 0.85), rgba(132, 106, 221, 0.85)), url("./images/bg-01.jpg") no-repeat;
+}
+
+main {
+    background: white;
+    width: 65%;
+    margin: 4rem auto;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5rem 4rem 7rem 4rem;
+}
+
+main > div:first-of-type {
+    width: 45%;
+    text-align: center;
+}
+
+main > div:last-of-type {
+    width: 45%;
+}
+
+main img {
+    width: 70%;
+    margin-top: 7rem;
+}
+
+main h2 {
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    background-color: #E6E6E6;
+    padding: 1rem 3.2rem;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    margin-bottom: 0.7rem;
+}
+
+main form > div {
+    position: relative;
+}
+
+main i {
+    position: absolute;
+    top: 16px;
+    left: 28px;
+    z-index: 2;
+    color: #AAAAAA;
+    font-size: 0.9rem;
+}
+
+input:focus + i{
+    color: #846ADD;
+    left: 23px;
+}
+
+input:focus::placeholder, textarea:focus::placeholder {
+    color:transparent
+}
+
+::placeholder {
+    color: #AAAAAA;
+    font-weight: 800;
+    font-size: 0.75rem;
+}
+
+input[type="submit"] {
+    margin-top: 2rem;
+    background: #846ADD;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #333333;
+}
+
+textarea {
+    padding-left: 2rem;
+    max-width: 100%;
+    min-width: 40%;
+}
+
+textarea::placeholder {
+    font-size: 0.85rem;
+    font-weight: 900;
+}

@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+@import url('https://use.fontawesome.com/releases/v5.4.2/css/all.css');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #FAFAFA;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+header nav {
+    margin: 0.5rem 0;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header nav:first-of-type ul li:first-of-type a {
+    color: #FA5B3D;
+}
+
+header a {
+    text-decoration: none;
+    color: #777777;
+}
+
+header li {
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+}
+
+header nav:last-of-type li {
+    border-right: 1px solid #DDDDDD;
+}
+
+#touch {
+    background: url("./img/residential-banner-2.jpg") no-repeat center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    border-top: 2px solid #E5E5E5;
+}
+
+#touch h1 {
+    margin-top: 0;
+    padding-top: 3rem;
+    font-weight: 500;
+    font-size: 3.2rem;
+    margin-bottom: 1rem;
+}
+
+#touch h1 span {
+    display: block;
+}
+
+#touch p:first-of-type {
+    font-size: 1.25rem;
+    width: 33%;
+    margin: 0 auto;
+}
+
+#touch p:last-of-type {
+    font-size: 1.25rem;
+    padding-bottom: 6rem;
+}
+
+#works {
+    text-align: center;
+}
+
+#works h2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#works > div {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+    color: #5A5A5A;
+}
+
+#works article {
+    width: 30%;
+}
+
+#works article div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#works hr {
+    display: inline-block;
+    width: 14%;
+    margin: 1rem;
+    height: 1px;
+    background: black;
+    border-left: none;
+    border-right: none;
+    vertical-align: center;
+}
+
+#works span {
+    font-size: 2.7rem;
+}
+
+#works h3 {
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 1rem 0 0 0;
+    letter-spacing: 2px;
+}
+
+#works p {
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+}
+
+#pictures {
+    display: flex;
+    justify-content: center;
+    background: #EDEDED;
+    padding: 4rem 0;
+    margin-top: 2rem;
+}
+
+#pictures article {
+    width: 23%;
+}
+
+#pictures article:not(:last-of-type) {
+    padding-right: 0.8rem;
+}
+
+#pictures img {
+    width: 100%;
+}
+
+#news {
+    display: flex;
+    background-color: #000000;
+    color: #444444;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+#news article:first-of-type {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    border-bottom: 1px solid #444;
+    padding-bottom: 1.5rem;
+}
+
+#news ul {
+    padding: 0;
+    list-style: none;
+    width: 25%;
+}
+
+#news ul li:not(:last-of-type) {
+    margin-bottom: 0.5rem;
+}
+
+#news ul a {
+    text-decoration: none;
+    color: #444;
+}
+
+#news article:nth-of-type(2) {
+    text-align: center;
+    margin: 0 0.5rem;
+}
+
+#news article:nth-of-type(2) p {
+    margin-bottom: 0.2rem;
+}
+
+#news article:nth-of-type(2) div {
+    margin-top: 1.2rem;
+    color: white;
+    font-weight: 100;
+}
+
+#news article:nth-of-type(2) i {
+    font-size: 0.8rem;
+}
+
+#news article:nth-of-type(3) {
+    padding-left: 1rem;
+}
+
+#news article:nth-of-type(3) form{
+    display: flex;
+    flex-direction: column;
+}
+
+#news article:nth-of-type(3) h5 {
+    width: 70%;
+    text-align: center;
+}
+
+#news article:nth-of-type(3) input[type="email"] {
+    width: 66%;
+    padding: 9px;
+    outline: none;
+}
+
+#news article:nth-of-type(3) input[type="email"]::placeholder {
+    font-size: 0.8rem;
+}
+
+#news article:nth-of-type(3) input[type="submit"] {
+    background: #FA5B3C;
+    color: white;
+    border: none;
+    width: 28%;
+    margin-top: 1rem;
+    padding: 0.7rem 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+#terms {
+    background: black;
+    text-align: center;
+    color: #444444;
+}
+
+#terms ul {
+    margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+#terms ul li {
+    padding: 0 0.7rem;
+}
+
+#terms ul li:not(:last-of-type) {
+    border-right: 1px solid #444444;
+}
+
+#terms ul a {
+    text-decoration: none;
+    color: #444444;
+}

@@ -1,0 +1,163 @@
+@media all and (max-width: 1028px){
+    #main {
+        flex-direction: column;
+    }
+
+    aside {
+        width: 90%;
+        margin: 2rem auto;
+        padding: 1rem;
+        box-sizing: border-box;
+        position: relative;
+    }
+
+    aside img {
+        background-color: #F9F9F9;
+        border-radius: 50%;
+        width: 283px;
+        height: 273px;
+        box-shadow: 5px 10px 47px 3px rgba(0,0,0,0.33);
+        vertical-align: middle;
+        margin-top: 4rem;
+        margin-right: 5rem;
+    }
+
+    #personal-info {
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: 4rem;
+        text-align: left;
+    }
+
+    #skills, #languages {
+        text-align: left;
+    }
+
+    aside {
+        text-align: center;
+    }
+
+    #personal-info:before {
+        display: block;
+        content: '';
+        position: absolute;
+        background-color: #F9F9F9;
+        top: 3%; left: 3%;
+        width: 94.5%;
+        height: 370px;
+    }
+
+    #personal-info > *, aside img {
+        position: relative;
+        z-index: 1;
+    }
+
+    #personal-info hr {
+        display: none;
+    }
+
+    #skills {
+        margin-top: 8rem;
+        margin-bottom: 3rem;
+    }
+
+    #languages {
+        margin-bottom: 1rem;
+    }
+
+    .progress-bar {
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    main {
+        width: 93%;
+        margin: 0 auto;
+    }
+
+    #work, #education {
+        padding: 4.5rem 3.5rem;
+    }
+
+    footer {
+        margin-top: 2rem;
+    }
+}
+
+@media all and (max-width: 768px){
+    aside img {
+        width: 100%;
+        border-radius: 0;
+        box-shadow: none;
+        height: 366px;
+        margin: 1.4rem 0 0;
+    }
+
+    aside {
+        text-align: left;
+    }
+
+    #personal-info:before {
+        height: 600px;
+    }
+
+    #personal-info {
+        margin-top: 1rem;
+    }
+
+    #skills, #languages {
+        margin-top: 4rem;
+    }
+
+    #work, #education {
+        padding: 3rem 2.5rem;
+    }
+
+    .school div > div {
+        display: block;
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+        background: none;
+        padding: 1rem 0;
+        margin: 0;
+    }
+
+    .school div img {
+        width: 45%;
+    }
+
+    #education {
+        margin-top: 2rem;
+    }
+}
+
+@media all and (max-width: 610px){
+    aside img {
+        height: 320px;
+    }
+
+    #personal-info:before {
+        height: 550px;
+        top: 3%;
+        left: 4%;
+        width: 92.3%;
+    }
+}
+
+@media all and (max-width: 500px){
+    #personal-info:before {
+        top: 3%;
+        left: 4%;
+        width: 92%;
+    }
+
+    aside img {
+        height: 261px;
+    }
+
+    #personal-info:before {
+        height: 500px;
+    }
+}

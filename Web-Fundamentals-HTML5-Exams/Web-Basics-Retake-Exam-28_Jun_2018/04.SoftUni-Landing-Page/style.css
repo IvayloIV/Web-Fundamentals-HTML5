@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,600,700,800,900');
+@import url('https://use.fontawesome.com/releases/v5.4.2/css/all.css');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: url('./images/home-page-apply.png') no-repeat left;
+    background-size: cover;
+}
+
+header div:first-of-type {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem 0 1.5rem;
+}
+
+header img {
+    width: 5%;
+    height: 80px;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+header ul li {
+    padding: 0 1rem 0.8rem 1rem;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+header div:last-of-type {
+    text-align: center;
+    padding-top: 3.5rem;
+    padding-bottom: 9rem;
+    color: #fff;
+}
+
+header div:last-of-type h1 {
+    font-weight: 600;
+    width: 30%;
+    margin: 2rem auto 2.5rem;
+}
+
+header button {
+    color: white;
+    background: transparent;
+    padding: 0.9em 1rem;
+    border: 2px solid white;
+    cursor: pointer;
+    outline: none;
+    font-weight: 600;
+}
+
+header button:hover {
+    background-color: white;
+    color: #000;
+}
+
+header button i {
+    margin-right: 0.4rem;
+}
+
+header button:first-of-type {
+    margin-right: 1rem;
+}
+
+#languages {
+    text-align: center;
+}
+
+#languages h2{
+    display: inline-block;
+    color: #565656;
+    padding: 0.8rem 1rem;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #575757;
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-bottom: 2.6rem;
+    font-weight: 600;
+}
+
+#languages div {
+    display: flex;
+    justify-content: center;
+}
+
+#languages div article {
+    width: 23%;
+    padding: 2rem;
+    cursor: pointer;
+    color: #565656;
+}
+
+#languages article:hover {
+    box-shadow: 0px 10px 18px 2px rgba(0,0,0,0.15);
+    color: #000;
+}
+
+#languages div article i {
+    font-size: 4.2rem;
+    margin-bottom: 1rem;
+}
+
+#languages p {
+    text-align: left;
+}
+
+#build {
+    width: 65%;
+    margin: 1rem auto 6rem;
+    padding-top: 2rem;
+    border-top: 1px solid #7A7A7A;
+}
+
+#build h2 {
+    text-align: center;
+    color: #545454;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+#build > p {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+#build > div {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+}
+
+#build > div div {
+    width: 29%;
+}
+
+#build img {
+    width: 100%;
+}
+
+#build h3 {
+    color: #5B5B5B;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#build article > p {
+    color: #60626F;
+    margin-bottom: 2rem;
+    font-size: 1.05rem;
+}
+
+#newsletter {
+    background-color: #F8F8F8;
+    padding: 1.3rem 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#newsletter article {
+    align-self: center;
+}
+
+#newsletter h2 {
+    font-weight: 600;
+    color: #585858;
+}
+
+#newsletter p {
+    color: #73787B;
+}
+
+#newsletter input[type="email"] {
+    padding: 0.8rem 1.3rem 0.8rem 1.3rem;
+    outline: none;
+    border: 2px solid #EDEDED;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#newsletter input[type="email"]::placeholder {
+    font-size: 1rem;
+}
+
+#newsletter input[type="submit"] {
+    padding: 0.95rem 1rem;
+    color: #fff;
+    border: none;
+    background: linear-gradient(to bottom, rgba(251,253,252,1) 0%, rgba(127,145,159,1) 46%, rgba(31,60,90,1) 100%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    right: 10px;
+    bottom: 1px;
+    cursor: pointer;
+    outline: none;
+}
+
+footer {
+    padding: 2.5rem 0;
+    text-align: center;
+    background: url('./images/home-page-apply.png') no-repeat;
+    color: #fff;
+}
+
+footer i {
+    padding: 0 0.65rem;
+    cursor: pointer;
+}
+
+footer p {
+    margin-bottom: 0;
+    margin-top: 2rem;
+    color: #EFF0F2;
+}
+
+footer span {
+    font-style: italic;
+}

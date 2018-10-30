@@ -1,0 +1,64 @@
+@media all and (max-width: 768px){
+    #main-header i, #logo{
+        display: none;
+    }
+
+    header nav {
+        text-align: center;
+        padding: 2rem 0;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    header nav ul li:not(:last-of-type) {
+        padding-bottom: 0.5rem;
+    }
+
+    #main-header {
+        height: 430px;
+    }
+
+    #main-header h1 {
+        padding-top: 6rem;
+    }
+
+    #about article {
+        text-align: left;
+        width: 100%;
+        padding: 1.5rem;
+        box-sizing: border-box;
+    }
+
+    #about article:nth-of-type(2) {
+        display: none;
+    }
+
+    #about button {
+        padding: 15px 26px;
+    }
+
+    #services {
+        margin-top: 4rem;
+    }
+
+    #services article {
+        width: 34%;
+    }
+
+    #information {
+        padding: 1.5rem;
+    }
+
+    #information article {
+        width: 100%;
+        display: block;
+    }
+
+    #information img {
+        padding-top: 70px;
+    }
+}

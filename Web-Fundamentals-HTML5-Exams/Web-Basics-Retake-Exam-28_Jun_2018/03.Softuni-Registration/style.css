@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+@import url('https://use.fontawesome.com/releases/v5.4.2/css/all.css');
+
+html {
+    font-family: 'Lato', sans-serif;
+    background: #F4F5F7;
+    padding: 0 12rem;
+}
+
+#logo {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+#logo img {
+    width: 11%;
+}
+
+header > div:last-of-type {
+    display: flex;
+    width: 90%;
+    margin: 0 auto 1.5rem;
+}
+
+header > div:last-of-type img {
+    width: 95%;
+}
+
+#registration {
+    background-color: white;
+    padding: 1rem 0;
+}
+
+#registration nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4.5rem;
+    margin-top: 1.5rem;
+}
+
+#registration nav ul li {
+    padding: 0 0.7rem;
+    font-weight: 600;
+}
+
+#registration nav ul li:not(:last-of-type)
+{
+    border-right: 1px solid #29394C;
+}
+
+#registration nav ul li:last-of-type a{
+    font-weight: 300;
+    color: #BBBBBB;
+}
+
+#registration nav ul a {
+    text-decoration: none;
+    color: #29394C;
+}
+
+form {
+    text-align: center;
+}
+
+form > div {
+    text-align: left;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+}
+
+form span {
+    display: block;
+    text-transform: uppercase;
+    color: #BBBBCA;
+    letter-spacing: 4px;
+}
+
+form input {
+    border: none;
+    border-bottom: 1px solid #29394C;
+    width: 100%;
+    outline: none;
+    padding: 1.5rem 0 0.3rem 0;
+    box-sizing: border-box;
+}
+
+form label {
+    width: 33%;
+}
+
+form input[type="submit"] {
+    padding: 0.8rem;
+    width: 13%;
+    border: none;
+    cursor: pointer;
+    background: #44A9F8;
+    color: white;
+    box-shadow: 0px 0px 16px 0 rgba(0,0,0,0.5);
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+form input:not([type="submit"]):focus {
+    border-bottom: 1px solid #99D0FB;
+}
+
+form input[type="submit"]:hover {
+    background-color: #565656;
+}
+
+#socialMedias {
+    display: flex;
+    text-align: center;
+    color: #fff;
+}
+
+#socialMedias div {
+    width: 50%;
+    padding: 0.9rem 0;
+    background-color: #DB4B38;
+    cursor: pointer;
+}
+
+#socialMedias > div:first-of-type {
+    background-color: #48629C;
+}
+
+#socialMedias i {
+    padding-right: 0.4rem;
+}
+
+#socialMedias div:hover {
+    background-color: #6DCCF3;
+}

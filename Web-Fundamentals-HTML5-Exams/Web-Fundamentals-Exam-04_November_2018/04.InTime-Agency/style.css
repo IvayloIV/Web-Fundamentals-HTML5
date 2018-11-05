@@ -1,0 +1,290 @@
+@import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css');
+
+body {
+    font-family: "Helvetica", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header section:first-of-type{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+header h1 span {
+    color: #21A2B5;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li {
+    padding: 0 0.8rem;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #454545;
+    font-size: 0.97rem;
+}
+
+header ul li:first-of-type a {
+    border-bottom: 3px solid #34B1C4;
+    padding-bottom: 5px;
+}
+
+header section:last-of-type {
+    background: url("./images/slide2.jpg") no-repeat center;
+    background-size: cover;
+    padding: 13rem 0 7rem 10rem;
+}
+
+header section:last-of-type h2 {
+    margin: 0;
+}
+
+header section:last-of-type div {
+    padding: 1rem 0 1rem 1rem;
+    background: rgba(0, 0, 0, 0.6);
+    width: 38%;
+    color: #FFFFFF;
+}
+
+header section:last-of-type div h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+header section:last-of-type button {
+    background: #008CBA;
+    border: none;
+    color: white;
+    padding: 0.6rem 1.9rem;
+    border-radius: 2rem;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+#welcome {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+#welcome h2, #services h2, #subscribe h2 {
+    margin: 0;
+    font-weight: 300;
+    font-size: 1.8rem;
+    color: #454545;
+}
+
+#welcome hr, #services hr,#subscribe hr {
+    width: 8%;
+    background: #34B1C4;
+    height: 3px;
+    border: none;
+}
+
+#welcome p {
+    width: 77%;
+    margin: 1rem auto;
+    color: #454545;
+}
+
+#welcome button {
+    background: #454545;
+    border: none;
+    color: white;
+    padding: 0.8rem 1.7rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    outline: none;
+    margin-top: 1rem;
+}
+
+#services {
+    text-align: center;
+    background: #EEF0F1;
+    padding: 3rem 0 1rem 0;
+}
+
+#services hr {
+    background: #474747;
+}
+
+#services div {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: 2rem auto;
+}
+
+#services div article {
+    width: 31.5%;
+    background: #FFFFFF;
+    padding-bottom: 2rem;
+}
+
+#services div img {
+    width: 100%;
+}
+
+#services h3 {
+    color: #454545;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-top: 1.5rem;
+}
+
+#services p {
+    color: #525252;
+    width: 95%;
+    margin: 1rem auto;
+}
+
+#services button {
+    background: #414141;
+    border: none;
+    color: white;
+    padding: 0.6rem 1.3rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 0.3rem;
+}
+
+#subscribe {
+    background: #393F43;
+    padding: 2.5rem 0 3rem 0;
+    color: #FDFDFD;
+}
+
+#subscribe h2 {
+    color: #FDFDFD;
+    text-align: center;
+}
+
+#subscribe hr {
+    background: #FDFDFD;
+}
+
+#subscribe p, #subscribe form {
+    text-align: center;
+}
+
+#subscribe form {
+    margin-top: 2rem;
+}
+
+#subscribe input[type="email"] {
+    background: #545A5E;
+    border: none;
+    padding: 0.8rem 1rem;
+    width: 30%;
+    border-radius: 4px;
+    outline: none;
+}
+
+#subscribe input[type="email"]::placeholder {
+    color: #717272;
+    font-style: italic;
+    font-size: 1rem;
+}
+
+#subscribe input[type="submit"] {
+    background: #6BBFFF;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    padding: 0.6rem 0;
+    border-radius: 4px;
+    width: 13%;
+    font-size: 1.1rem;
+    margin-left: 0.7rem;
+}
+
+footer {
+    background: #2F3539;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0 3rem 0;
+    color: #fff;
+}
+
+#menu ul {
+    padding: 0;
+    list-style: none;
+}
+
+#menu ul li {
+    margin-bottom: 1rem;
+}
+
+#menu ul a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#menu article:first-of-type {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+#menu h4 {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+#menu article:nth-child(1) > div:nth-child(3) > p:nth-child(2) {
+    margin-bottom: 2.5rem;
+}
+
+#menu article:last-of-type {
+    width: 30%;
+    text-align: center;
+}
+
+footer .icons i {
+    padding-right: 0.4rem;
+    padding-left: 0.4rem;
+    cursor: pointer;
+}
+
+footer section:last-of-type {
+    padding: 1rem 0;
+    background: #262B2F;
+}
+
+footer section:last-of-type p {
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+footer section:last-of-type p span {
+    color: #0C8CBA;
+}

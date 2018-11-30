@@ -1,0 +1,43 @@
+@mixin aspect-ratio($width, $height) {
+  $ration: unquote(($height / $width * 100) + "%");
+
+  &:before {
+      display: block;
+      content: '';
+      padding-top: #{$ration};
+   }
+
+  &:after {
+    display: flex;
+    content: quote(#{$width}x#{$height});
+    color: white;
+    position: absolute;
+    font-weight: bold;
+    font-size: 1.2rem;
+    top: 0; left: 0; right: 0; bottom: 0;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.boxes {
+  display: flex;
+  align-items: flex-start;
+}
+
+.boxes div {
+  background-color: black;
+  width: 20vw;
+  margin: 0 0.6rem;
+  position: relative;
+}
+
+$sizes: (1:1, 9:16, 10:16, 16:9, 2:3, 3:2);
+
+$counter: 1;
+@each $height, $width in $sizes {
+  .boxes div:nth-of-type(#{$counter}) {
+    @include aspect-ratio($width, $height);
+  }
+  $counter: $counter + 1;
+}

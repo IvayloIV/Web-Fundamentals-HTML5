@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; }
+
+.square {
+  width: 100px;
+  height: 100px;
+  animation: circle 1.4s ease infinite alternate; }
+
+@keyframes circle {
+  from {
+    background-color: red;
+    border-radius: 50%; }
+  to {
+    background-color: orange;
+    border-radius: 0;
+    transform: scale(2); } }
+
+/*# sourceMappingURL=output.css.map */

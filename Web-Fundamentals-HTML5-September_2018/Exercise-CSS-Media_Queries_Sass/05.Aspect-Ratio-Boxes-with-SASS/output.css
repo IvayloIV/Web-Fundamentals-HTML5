@@ -1,0 +1,119 @@
+.boxes {
+  display: flex;
+  align-items: flex-start; }
+
+.boxes div {
+  background-color: black;
+  width: 20vw;
+  margin: 0 0.6rem;
+  position: relative; }
+
+.boxes div:nth-of-type(1):before {
+  display: block;
+  content: '';
+  padding-top: 100%; }
+.boxes div:nth-of-type(1):after {
+  display: flex;
+  content: "1x1";
+  color: white;
+  position: absolute;
+  font-weight: bold;
+  font-size: 1.2rem;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center; }
+
+.boxes div:nth-of-type(2):before {
+  display: block;
+  content: '';
+  padding-top: 56.25%; }
+.boxes div:nth-of-type(2):after {
+  display: flex;
+  content: "16x9";
+  color: white;
+  position: absolute;
+  font-weight: bold;
+  font-size: 1.2rem;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center; }
+
+.boxes div:nth-of-type(3):before {
+  display: block;
+  content: '';
+  padding-top: 62.5%; }
+.boxes div:nth-of-type(3):after {
+  display: flex;
+  content: "16x10";
+  color: white;
+  position: absolute;
+  font-weight: bold;
+  font-size: 1.2rem;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center; }
+
+.boxes div:nth-of-type(4):before {
+  display: block;
+  content: '';
+  padding-top: 177.7777777778%; }
+.boxes div:nth-of-type(4):after {
+  display: flex;
+  content: "9x16";
+  color: white;
+  position: absolute;
+  font-weight: bold;
+  font-size: 1.2rem;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center; }
+
+.boxes div:nth-of-type(5):before {
+  display: block;
+  content: '';
+  padding-top: 66.6666666667%; }
+.boxes div:nth-of-type(5):after {
+  display: flex;
+  content: "3x2";
+  color: white;
+  position: absolute;
+  font-weight: bold;
+  font-size: 1.2rem;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center; }
+
+.boxes div:nth-of-type(6):before {
+  display: block;
+  content: '';
+  padding-top: 150%; }
+.boxes div:nth-of-type(6):after {
+  display: flex;
+  content: "2x3";
+  color: white;
+  position: absolute;
+  font-weight: bold;
+  font-size: 1.2rem;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center; }
+
+/*# sourceMappingURL=output.css.map */

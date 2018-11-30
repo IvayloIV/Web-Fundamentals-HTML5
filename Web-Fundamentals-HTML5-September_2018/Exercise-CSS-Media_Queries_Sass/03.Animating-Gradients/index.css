@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    width: 500px;
+    height: 300px;
+    position: relative;
+}
+
+.banner:before,
+.banner:after {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+}
+
+.banner:before {
+    background: linear-gradient(rgba(201, 133, 50, 1), rgba(252, 201, 136, 1));
+}
+
+.banner:after {
+    background: linear-gradient(rgba(132, 149, 160, 1), rgba(231, 236, 237, 1));
+    transition: opacity 0.4s linear;
+}
+
+.banner:hover:after {
+    opacity: 0;
+}

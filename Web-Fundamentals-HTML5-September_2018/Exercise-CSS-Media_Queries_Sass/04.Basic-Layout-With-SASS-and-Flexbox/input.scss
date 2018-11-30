@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Lato:400,700,900');
+
+$spacing-size: 5rem;
+@mixin mq($width) {
+  $parent: &;
+  @media all and (max-width: $width){
+    @at-root #{$parent} {
+      @content
+    }
+  }
+}
+
+body {
+  background: #EEEEEE;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  margin: 0;
+}
+
+.site {
+  @include mq(580px) {font-size: 16px; }
+  @include mq(330px) {font-size: 14px; }
+
+  #{&}-header {
+    padding: 0 $spacing-size;
+    margin: 2rem auto 1.8rem;
+    box-sizing: border-box;
+
+    h1 {
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-family: 'Josefin Sans', sans-serif;
+      font-style: italic;
+      font-size: 1.1rem;
+      margin-top: 1rem;
+    }
+  }
+
+  #{&}-main {
+    padding: 3rem $spacing-size;
+    margin: 0 3rem;
+    display: flex;
+    justify-content:  space-between;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    flex-wrap: wrap;
+    @include mq(580px) {padding: 2rem 1rem; }
+    @include mq(660px) {margin: 0 auto; }
+  }
+
+  #{&}-content {
+    flex: 1 1 75%;
+  }
+
+  #{&}-navigation {
+    flex: 1 1 10%;
+
+    ul{
+      list-style-type: circle;
+      padding-left: 3rem;
+
+      a {
+        text-decoration: none;
+        color: #000;
+        font-weight: bold;
+      }
+    }
+  }
+
+  #{&}-footer {
+    padding: 0 $spacing-size;
+    margin: 1rem auto;
+    box-sizing: border-box;
+  }
+}

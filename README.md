@@ -13,6 +13,7 @@
 9.  [**Lab-Media Queries Part-2**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-September_2018/Lab-Media_Queries-Part_2)
 10.  [**Exercise-Media Queries**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-September_2018/Exercise-Media_Queries)
 11.  [**Lab-File Organisation and Version Control**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-September_2018/Lab-File_Organisation_and_Version_Control)
+12.  [**Exercise-CSS Media Queries, Sass**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-September_2018/Exercise-CSS-Media_Queries_Sass)
 
 ## <b>Web-Fundamentals-HTML5-May 2018</b>
 1.  [**Lab-HTML and CSS Overview**](https://github.com/IvayloIV/Web-Fundamentals-HTML5/tree/master/Web-Fundamentals-HTML5-May_2018/Lab-HTML_and_CSS_Overview)
